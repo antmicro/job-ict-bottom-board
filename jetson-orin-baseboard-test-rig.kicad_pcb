@@ -4158,7 +4158,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "/GPIO_04")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "508e6292-5881-4b44-b3ea-de0faea9418b")
 		)
 		(pad "2" thru_hole circle
@@ -4178,7 +4178,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 33 "/GPIO_05")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "54e5762a-9a0e-410a-9c32-fded94ab5a99")
 		)
 		(pad "4" thru_hole circle
@@ -4198,7 +4198,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 30 "/GPIO_06")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1fa6ffd8-f95b-427e-ada1-e6141c81f942")
 		)
 		(pad "6" thru_hole circle
@@ -4208,7 +4208,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 37 "/GPIO_02")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8c975adb-30bf-454f-8bf3-1faf453ffb51")
 		)
 		(pad "7" thru_hole circle
@@ -4218,7 +4218,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 34 "/GPIO_07")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "566d0813-637c-4573-b026-27b02dd1ea5b")
 		)
 		(pad "8" thru_hole circle
@@ -4228,7 +4228,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 36 "/GPIO_03")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "781832c5-d240-442e-8697-3147d18123ba")
 		)
 		(pad "9" thru_hole circle
@@ -9408,7 +9408,7 @@
 		(property "Reference" "H3"
 			(at -0.79 -3.38 0)
 			(layer "F.SilkS")
-			(uuid "f7cc736a-4583-4440-8426-7c5f284c7b99")
+			(uuid "71d1e8fd-7386-48c5-8bb3-94254fa79291")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9420,7 +9420,7 @@
 		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "60e7e6d4-1038-480f-b944-f9ade1f6ba6c")
+			(uuid "ce136e24-e097-466c-a897-42238f5835cb")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9433,7 +9433,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5cb4adc0-5988-4ef7-a748-40530efb9a6c")
+			(uuid "41d12ab6-49c1-4dbc-9cfc-4c8eb573dab5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9446,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1a6ecb4f-d572-4e31-a5d1-7e5b046893c9")
+			(uuid "fd616cce-2ccc-4f3e-a488-ce7500d5e0d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9459,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "db42bf78-6b8d-4e29-b3c7-4d4009bed189")
+			(uuid "d91e177d-ee28-4ec8-a7c5-06552a413680")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9530,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "028a6395-ce38-43e0-a975-bda941a624c5")
+			(uuid "e26c67a9-0d18-400e-9811-4249ff55f9d5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9541,7 +9541,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "bd6432f4-3f1a-470b-aea3-6f4dafa4f5b0")
+			(uuid "eb1d7742-ee15-4409-a19d-3e8e0e4ccf4f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9552,7 +9552,7 @@
 			)
 			(fill none)
 			(layer "User.5")
-			(uuid "f796d6c1-7d53-477a-ae88-058f42f5d061")
+			(uuid "80c2d8ed-f7c1-4fbe-8264-ca6588437f39")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9563,7 +9563,7 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "dd8c1345-278e-4bfd-ba35-a3830111778e")
+			(uuid "29d63dc7-03bf-4622-ac6d-56aacba3f4c4")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9574,26 +9574,13 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "ad04d7b6-86a7-4aba-bfab-93929ca109ed")
-		)
-		(fp_text user "License: Apache-2.0"
-			(at -9.6 8.9 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "262b146c-5236-49bc-9bf8-992044097e2a")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
+			(uuid "0f74a711-39be-4f62-948d-211291c45097")
 		)
 		(fp_text user "Author: Antmicro"
 			(at -9.6 7.7 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50469c43-0417-4c09-ad7f-52a33848ec5a")
+			(uuid "32b4e0c3-1c99-4ff2-b61e-512ea3482826")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9606,7 +9593,20 @@
 			(at -9.6 6.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75175d6a-52b9-4771-bc2a-848fc272f084")
+			(uuid "7843374d-e5bb-4a7a-8c44-b0bb1125b936")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "License: Apache-2.0"
+			(at -9.6 8.9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86b2eb77-3b32-4cdf-8676-2b511cd5fc25")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9633,7 +9633,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -9645,7 +9645,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -9657,7 +9657,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -9686,17 +9686,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "72aa9a44-a36b-4027-b219-6c533150a92b")
+			(uuid "f0c3d208-ed57-464c-aa34-d55ac65447b9")
 		)
 		(pad "" smd custom
 			(at -1.7 1.7 90)
@@ -9716,7 +9716,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -9728,7 +9728,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -9740,7 +9740,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -9769,17 +9769,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "cc55fc30-7ab0-48c6-96d9-f4c4e0d3fc7b")
+			(uuid "0894001e-cf9d-4b0e-93ec-de21ee9df5b4")
 		)
 		(pad "" smd custom
 			(at 1.7 -1.7 270)
@@ -9799,7 +9799,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -9811,7 +9811,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -9823,7 +9823,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -9852,17 +9852,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "d704122d-3fdb-460b-a272-7df80b58eefa")
+			(uuid "437f8abc-7ea8-4621-9825-c8461ef5ab67")
 		)
 		(pad "" smd custom
 			(at 1.7 1.7 180)
@@ -9882,7 +9882,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -9894,7 +9894,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -9906,7 +9906,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -9935,17 +9935,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "93ed383e-249e-437c-b7a1-74e94a5ef759")
+			(uuid "63855e6d-144b-437b-8929-784cd029036e")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -9955,11 +9955,11 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "4abe68f3-f249-497f-8c65-45c371b0cedf")
+			(uuid "fd46c251-ec95-4c4e-8ce3-a541bf25b42e")
 		)
 		(model "${ANT3DMDL}/9774065151.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -18407,7 +18407,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 56 "/UART_TX")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "501cf256-db51-4376-b283-c7ae4e70a1eb")
 		)
 		(pad "2" thru_hole circle
@@ -18427,7 +18427,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 59 "/UART_RX")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b0d1e86d-b3cd-4d1c-ac92-b92501112b20")
 		)
 		(pad "4" thru_hole circle
@@ -18447,7 +18447,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 60 "/I2C_SCL")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "baaf9d10-812e-4abd-8611-04dbba14768c")
 		)
 		(pad "6" thru_hole circle
@@ -18467,7 +18467,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "/I2C_SDA")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "085cbecb-8851-487b-be1f-cfb2c8223f06")
 		)
 		(pad "8" thru_hole circle
@@ -29030,7 +29030,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 50 "/GPIO_24")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "96c7b548-43bb-43ee-9352-874727815107")
 		)
 		(pad "2" thru_hole circle
@@ -29040,7 +29040,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 46 "/GPIO_20")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "08bd28d3-6efe-45f2-a0d7-a229183652e4")
 		)
 		(pad "3" thru_hole circle
@@ -29050,7 +29050,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 49 "/GPIO_25")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "806305ec-33ae-4ffc-ba90-860b0b580947")
 		)
 		(pad "4" thru_hole circle
@@ -29060,7 +29060,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 51 "/GPIO_21")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "aaea198e-613c-495f-b465-bee230e901fa")
 		)
 		(pad "5" thru_hole circle
@@ -29070,7 +29070,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 48 "/GPIO_26")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "43925e30-3058-4e00-aaed-35213d945e53")
 		)
 		(pad "6" thru_hole circle
@@ -29080,7 +29080,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 52 "/GPIO_22")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b0ab4305-1bde-48cd-9fde-06235536da40")
 		)
 		(pad "7" thru_hole circle
@@ -29090,7 +29090,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 47 "/GPIO_27")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "2f0a5f23-6e8e-45d9-b7bf-bc4e0c0a5917")
 		)
 		(pad "8" thru_hole circle
@@ -29100,7 +29100,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 53 "/GPIO_23")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e1ce383c-80c5-4857-88a3-a04a22c22f92")
 		)
 		(pad "9" thru_hole circle
@@ -35464,7 +35464,7 @@
 		(at 217.89 152.1385)
 		(descr "Based on: https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf")
 		(property "Reference" "J27"
-			(at -1.13 1.7415 360)
+			(at -1.13 1.7415 0)
 			(layer "F.SilkS")
 			(uuid "12484600-a1d5-4232-93e4-61d2ef3b0261")
 			(effects
@@ -35476,7 +35476,7 @@
 			)
 		)
 		(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "d5b78924-43ee-4225-9f63-c3cb6c8b7d7c")
 			(effects
@@ -35488,7 +35488,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PogoPin_Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9a12977-662b-4dda-9009-2388a59393df")
@@ -35501,7 +35501,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "533833a5-3ddc-495c-876e-4ff155210020")
@@ -35514,7 +35514,7 @@
 			)
 		)
 		(property "Description" "Spring Probe Sleeve, Suitable for 1.27mm pitch"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f2bfd7f-91f7-453a-b2fb-909979c86e3a")
@@ -37955,7 +37955,7 @@
 			(uuid "a0314433-9184-429c-bd28-74e5f744e595")
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.75 2.75 360)
+			(at -0.75 2.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2aa4b2b8-f500-4089-88bf-34eff0cb8ef2")
@@ -37968,7 +37968,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.75 5.15 360)
+			(at -0.75 5.15 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e299758-184f-48fb-b7f5-dfae9b4203b6")
@@ -37981,7 +37981,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.75 3.95 360)
+			(at -0.75 3.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d68d7fb9-a1ab-4639-8ea9-ad28b63635ea")
@@ -51325,7 +51325,7 @@
 		(property "Reference" "H4"
 			(at -0.63 -3.41 0)
 			(layer "F.SilkS")
-			(uuid "5d9017d3-17d1-4d63-b1c4-123ad07f6fd9")
+			(uuid "1869561e-36cd-4e7e-95d6-ad3433c72902")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -51337,7 +51337,7 @@
 		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "f1a91a50-bf8c-4aea-8733-d08a1d00fddc")
+			(uuid "1e72b936-9e54-42b5-9ae8-6d3bdcc8778a")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -51350,7 +51350,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a57ae116-8fcc-4e63-889f-8572ba0ffc8c")
+			(uuid "903acdd8-ffad-44ff-82fd-7725dd616973")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51363,7 +51363,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "13435b09-7f0a-4577-a597-9f3289251855")
+			(uuid "ca8011de-38a0-49e1-a08c-5419b6f58fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51376,7 +51376,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "12b07509-5276-450a-af7c-4b26deebc77e")
+			(uuid "52a250a3-e9d4-4616-b989-63ea14ae2893")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51447,7 +51447,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "66ae74f9-99d0-40dd-9f2a-62aa78a0b878")
+			(uuid "364220f2-114f-4b5e-9cd0-7cf4ac924452")
 		)
 		(fp_circle
 			(center 0 0)
@@ -51458,7 +51458,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "2f400415-84a2-432c-9342-2d135a837f19")
+			(uuid "090d7470-1ee6-45f5-8679-bb349d90848b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -51469,7 +51469,7 @@
 			)
 			(fill none)
 			(layer "User.5")
-			(uuid "fa2686b0-7aed-48cd-8c82-49430a758d49")
+			(uuid "60574472-afe9-41fb-a769-009e19547d9a")
 		)
 		(fp_circle
 			(center 0 0)
@@ -51480,7 +51480,7 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "1f15e29d-b05b-4898-9c6f-2dcd54217de2")
+			(uuid "913efaf6-006f-45c1-9f0b-9a7549bd759b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -51491,26 +51491,13 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "0e33575f-aab6-4eea-8fa4-5da3005fb4fd")
-		)
-		(fp_text user "Author: Antmicro"
-			(at -9.6 7.7 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "092db384-f788-4778-a15a-0b8d4aff9d32")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
+			(uuid "32e7f42a-2d7d-417f-addd-13ca22b5dc8e")
 		)
 		(fp_text user "License: Apache-2.0"
 			(at -9.6 8.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2da93de0-a292-4c28-bcec-ff4ef1e2f5ad")
+			(uuid "6e200678-9e63-4ada-8a0c-06e422de9262")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -51523,7 +51510,20 @@
 			(at -9.6 6.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9756ce77-7ed1-4b24-ae22-1e01c53c7cff")
+			(uuid "78a5c03a-e53f-4ef4-be9f-4b0f47ee7933")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "Author: Antmicro"
+			(at -9.6 7.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3dc9adb-1b83-462c-be92-97d2fcc2c60d")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -51550,7 +51550,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -51562,7 +51562,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -51574,7 +51574,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -51603,17 +51603,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "c930522c-c326-429e-b2ce-0632b077e464")
+			(uuid "84cc1037-fe80-46bc-99ec-1338f7591296")
 		)
 		(pad "" smd custom
 			(at -1.7 1.7 90)
@@ -51633,7 +51633,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -51645,7 +51645,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -51657,7 +51657,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -51686,17 +51686,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "ae74f2b6-dad9-4d2e-93f3-83329b0009da")
+			(uuid "7c11fffb-64b3-44f4-9ca5-78bec5523c90")
 		)
 		(pad "" smd custom
 			(at 1.7 -1.7 270)
@@ -51716,7 +51716,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -51728,7 +51728,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -51740,7 +51740,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -51769,17 +51769,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "47323d15-ca37-4646-a9de-8b700e940ea4")
+			(uuid "96d2c923-d763-471b-b5dd-52278dd29d09")
 		)
 		(pad "" smd custom
 			(at 1.7 1.7 180)
@@ -51799,7 +51799,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -51811,7 +51811,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -51823,7 +51823,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -51852,17 +51852,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "9ddca324-d402-4096-a7cf-fcebe8fb15ea")
+			(uuid "08bbb0fb-116c-4a40-9d66-404af8347ccc")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -51872,11 +51872,11 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "55bdbaab-7ab1-401b-a39e-635547715ea9")
+			(uuid "bf469b9f-8f6c-4c49-ad80-2b77303e945b")
 		)
 		(model "${ANT3DMDL}/9774065151.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -61186,7 +61186,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 25 "/GPIO_14")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "aead9c8a-0894-4b41-8913-712bf23fae46")
 		)
 		(pad "2" thru_hole circle
@@ -61196,7 +61196,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/GPIO_10")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5747ecfc-7fe7-4070-8ac4-cdf337f573cd")
 		)
 		(pad "3" thru_hole circle
@@ -61206,7 +61206,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "/GPIO_15")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b8539281-057c-4c74-9da5-ab2614aed073")
 		)
 		(pad "4" thru_hole circle
@@ -61216,7 +61216,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 28 "/GPIO_11")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d8acc6d8-34e0-44de-b4f2-f1f6a88ebf69")
 		)
 		(pad "5" thru_hole circle
@@ -61226,7 +61226,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "/GPIO_16")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "28c52858-6dc6-4957-a7c0-de436cad260e")
 		)
 		(pad "6" thru_hole circle
@@ -61236,7 +61236,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "/GPIO_12")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "23618b01-a55a-4f23-9921-2585f6b5b549")
 		)
 		(pad "7" thru_hole circle
@@ -61246,7 +61246,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 27 "/GPIO_17")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "bbdfaa9f-9b23-44b0-8708-5b94e0eaf703")
 		)
 		(pad "8" thru_hole circle
@@ -61256,7 +61256,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 29 "/GPIO_13")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f3862bdb-139a-4fe3-b395-89076348f858")
 		)
 		(pad "9" thru_hole circle
@@ -68895,7 +68895,7 @@
 		(at 220.3 152.2)
 		(descr "Based on: https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf")
 		(property "Reference" "J26"
-			(at -1.12 1.67 360)
+			(at -1.12 1.67 0)
 			(layer "F.SilkS")
 			(uuid "0b1a5268-c18b-4456-bd77-7c92413e70c0")
 			(effects
@@ -68907,7 +68907,7 @@
 			)
 		)
 		(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "9535cf17-483e-40fb-a8cf-bde55851c8e7")
 			(effects
@@ -68919,7 +68919,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PogoPin_Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f26676b0-796b-40c6-b30b-4baf851511be")
@@ -68932,7 +68932,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d205d79-9457-4479-8b85-1a92e01d8826")
@@ -68945,7 +68945,7 @@
 			)
 		)
 		(property "Description" "Spring Probe Sleeve, Suitable for 1.27mm pitch"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7a4d4c9-d8c1-4a2c-a729-85c0901fb8e1")
@@ -71386,7 +71386,7 @@
 			(uuid "29c7b6d9-7b31-41f5-b121-d741cae7cd27")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.75 3.95 360)
+			(at -0.75 3.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38d3301a-0f7b-4fd6-bb91-b69aa87f93de")
@@ -71399,7 +71399,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.75 2.75 360)
+			(at -0.75 2.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52a648b4-be6a-4687-9414-bb519ec4aadf")
@@ -71412,7 +71412,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.75 5.15 360)
+			(at -0.75 5.15 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c3021171-ee99-4efb-bde3-7fa24aba648e")
@@ -80148,7 +80148,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 45 "/GPIO_34")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cd65689e-ac12-4009-a845-1d2e8ede938e")
 		)
 		(pad "2" thru_hole circle
@@ -80158,7 +80158,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 40 "/GPIO_30")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3ccd7bec-0d2b-46b1-87a5-721970abedea")
 		)
 		(pad "3" thru_hole circle
@@ -80168,7 +80168,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 43 "/GPIO_35")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8e9f322e-10a1-400d-afc4-de6b6d70b602")
 		)
 		(pad "4" thru_hole circle
@@ -80178,7 +80178,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 42 "/GPIO_31")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7530ced9-a7be-42fc-94db-ecd2bd7140c2")
 		)
 		(pad "5" thru_hole circle
@@ -80188,7 +80188,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 38 "/GPIO_36")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "13cb6f36-cb09-4065-9842-63d72df90055")
 		)
 		(pad "6" thru_hole circle
@@ -80198,7 +80198,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 41 "/GPIO_32")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5dbc3a3d-35d3-4f12-867e-7e0f1acc7960")
 		)
 		(pad "7" thru_hole circle
@@ -80208,7 +80208,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 44 "/GPIO_37")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "99657fa9-6a12-4aac-ba63-4096e46d6411")
 		)
 		(pad "8" thru_hole circle
@@ -80218,7 +80218,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "/GPIO_33")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "33b68aa5-5404-48af-9bdc-7d043b091c44")
 		)
 		(pad "9" thru_hole circle
@@ -88291,7 +88291,7 @@
 		(property "Reference" "H5"
 			(at -0.78 4.26 0)
 			(layer "F.SilkS")
-			(uuid "256c73f6-d391-4954-be10-b14451b18f4d")
+			(uuid "acc62c1a-ee49-45af-a839-d3bf1619e192")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -88303,7 +88303,7 @@
 		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "d7109913-d9c6-49e1-8d90-990ef817119d")
+			(uuid "fd30d728-d8a1-4a9d-84f6-561f8e5dcbae")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -88316,7 +88316,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "77b3cc19-d28b-4ade-93b6-cc17b3a7acc1")
+			(uuid "61ac43ac-35c6-4436-828f-8279ebad36c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88329,7 +88329,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cbc88115-f5e3-4dfb-9bff-b4a3bfe96bd9")
+			(uuid "7f2351ab-d365-495b-a314-2edb6fc7f392")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88342,7 +88342,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2b0fde7b-3423-4131-bed7-f6f4b358959b")
+			(uuid "5d07c809-ba11-402a-9cd5-63228ec837f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88413,7 +88413,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "9072d2c7-0161-418b-9715-75085b87de02")
+			(uuid "7732ac57-a6ef-4020-882d-67bc7e3b4a55")
 		)
 		(fp_circle
 			(center 0 0)
@@ -88424,7 +88424,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "9b69697e-2f90-476e-99cc-ecd46f8d8dfe")
+			(uuid "68c3c244-9a8f-4c70-9827-f46983578675")
 		)
 		(fp_circle
 			(center 0 0)
@@ -88435,7 +88435,7 @@
 			)
 			(fill none)
 			(layer "User.5")
-			(uuid "2907d690-9e5f-4532-adc5-e6360808f719")
+			(uuid "1067fbca-5c34-44e0-a316-9eb063bc5334")
 		)
 		(fp_circle
 			(center 0 0)
@@ -88446,7 +88446,7 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "ba213d31-b7f2-44f8-8ab1-2ca4d25f0548")
+			(uuid "e4c63436-bbe2-4d7a-9d31-799a0ebe5092")
 		)
 		(fp_circle
 			(center 0 0)
@@ -88457,26 +88457,13 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "f98af8b3-d069-4911-ad10-6726a1ffe566")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -9.6 6.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7be3c5bb-e537-4b4f-b32c-ea2ef7febfa5")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
+			(uuid "1b35a28a-370f-4e9b-9e92-cb398d299fa3")
 		)
 		(fp_text user "Author: Antmicro"
 			(at -9.6 7.7 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "885bbdee-2ff6-4768-a368-9b549f9a85d0")
+			(uuid "1fdf2da8-36fb-4dec-9813-1e28b2a756df")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -88489,7 +88476,20 @@
 			(at -9.6 8.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94236868-9e53-4f90-a58a-c14a8c56abb6")
+			(uuid "ccbb2741-8980-425d-bd49-d21459dfe825")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -9.6 6.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfa45606-b710-49a0-b808-f39b47bbfb4e")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -88516,7 +88516,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -88528,7 +88528,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -88540,7 +88540,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -88569,17 +88569,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "f80bfff2-45e7-4eac-aa82-9f41453535fd")
+			(uuid "cb902dbf-0ce9-4219-9abe-ea0c4e3345e7")
 		)
 		(pad "" smd custom
 			(at -1.7 1.7 90)
@@ -88599,7 +88599,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -88611,7 +88611,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -88623,7 +88623,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -88652,17 +88652,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "35685318-cd98-4f90-83ab-f64a3033f388")
+			(uuid "5cb8b748-0d0f-497b-abcf-549a356afcce")
 		)
 		(pad "" smd custom
 			(at 1.7 -1.7 270)
@@ -88682,7 +88682,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -88694,7 +88694,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -88706,7 +88706,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -88735,17 +88735,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "a5f960b3-2717-4dbe-af06-e236a7f6853d")
+			(uuid "7009d2bf-a603-477a-aadb-f4181115c29a")
 		)
 		(pad "" smd custom
 			(at 1.7 1.7 180)
@@ -88765,7 +88765,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -88777,7 +88777,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -88789,7 +88789,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -88818,17 +88818,17 @@
 					(width 0.2)
 				)
 				(gr_line
-					(start 1.279127 -1.083663)
-					(end 1.279127 -0.250195)
+					(start 1.279127 -0.250195)
+					(end 1.279127 -1.083663)
 					(width 0.2)
 				)
 				(gr_line
-					(start -1.083663 1.279127)
-					(end -0.250195 1.279127)
+					(start -0.250195 1.279127)
+					(end -1.083663 1.279127)
 					(width 0.2)
 				)
 			)
-			(uuid "249fae4f-2bf4-4ac4-aea2-618bc07ebff3")
+			(uuid "e4475fda-17e4-432e-a2ea-10046bf368cd")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -88838,11 +88838,11 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "1639aa27-f5ab-4305-a86f-2200bbf0adb4")
+			(uuid "d97680fd-d6dc-45b1-a92a-0bb9e1d05c96")
 		)
 		(model "${ANT3DMDL}/9774065151.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -94957,7 +94957,7 @@
 		(at 216.62 150.8695)
 		(descr "Based on: https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf")
 		(property "Reference" "J28"
-			(at -1.1 -0.9095 360)
+			(at -1.1 -0.9095 0)
 			(layer "F.SilkS")
 			(uuid "9c62fade-3fc8-42d1-8330-81b70d7f08d7")
 			(effects
@@ -94969,7 +94969,7 @@
 			)
 		)
 		(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "806288a0-f470-4465-b3cb-ec92ae609721")
 			(effects
@@ -94981,7 +94981,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PogoPin_Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0d79cc6-d933-4dab-909e-59b36c1f8821")
@@ -94994,7 +94994,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e71bddd5-327b-4b5f-a104-bcb08f88a76f")
@@ -95007,7 +95007,7 @@
 			)
 		)
 		(property "Description" "Spring Probe Sleeve, Suitable for 1.27mm pitch"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57bcae8a-8b13-4585-a317-2924a355e829")
@@ -97448,7 +97448,7 @@
 			(uuid "a04ca02d-d0f3-4084-bf42-a8d42b75b7d1")
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.75 2.75 360)
+			(at -0.75 2.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1bfd31f5-ac9a-43a4-b641-a383f430089e")
@@ -97461,7 +97461,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.75 5.15 360)
+			(at -0.75 5.15 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6cadc606-1af4-4ea6-8c65-44b93ff190a5")
@@ -97474,7 +97474,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.75 3.95 360)
+			(at -0.75 3.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d173a712-9000-436f-81b3-8d28e840ba7c")
@@ -125808,7 +125808,7 @@
 		(at 221.8 152)
 		(descr "Based on: https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf")
 		(property "Reference" "J25"
-			(at -0.76 1.71 360)
+			(at -0.76 1.71 0)
 			(layer "F.SilkS")
 			(uuid "42052207-5cc6-48a9-b7f1-79606558cb75")
 			(effects
@@ -125820,7 +125820,7 @@
 			)
 		)
 		(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "21ec0ed8-5c09-4de0-ae10-3a834bb29435")
 			(effects
@@ -125832,7 +125832,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PogoPin_Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "247500af-4afa-4fb9-93e1-a44d03df4b4e")
@@ -125845,7 +125845,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1735710-5af1-4438-a17d-08f83da6c38f")
@@ -125858,7 +125858,7 @@
 			)
 		)
 		(property "Description" "Spring Probe Sleeve, Suitable for 1.27mm pitch"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28117575-1308-4f89-a76d-6dbd6afbccb2")
@@ -128299,7 +128299,7 @@
 			(uuid "f3076171-418d-4fd9-aedd-2ad0a711d533")
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.75 5.15 360)
+			(at -0.75 5.15 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b6eea25-ab12-43ea-a98c-79038f625435")
@@ -128312,7 +128312,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.75 2.75 360)
+			(at -0.75 2.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56ccc240-9902-4b74-8daa-362e4d00dfc0")
@@ -128325,7 +128325,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.75 3.95 360)
+			(at -0.75 3.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76dfb201-dafb-46f1-b48b-a3962596512a")
@@ -150466,7 +150466,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 15 "/ADC_B_IN4")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "272a5224-095c-43b9-a233-c1f0ed350fec")
 		)
 		(pad "2" thru_hole circle
@@ -150476,7 +150476,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 19 "/ADC_B_IN0")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7c7605fc-2988-490f-a2a7-24368ba83fb7")
 		)
 		(pad "3" thru_hole circle
@@ -150486,7 +150486,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "/ADC_B_IN5")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "55829c05-e2f4-4a49-9c10-2a889ccb53ba")
 		)
 		(pad "4" thru_hole circle
@@ -150496,7 +150496,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 21 "/ADC_B_IN1")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a22e7f79-3037-4eba-a43e-8a594a7110f7")
 		)
 		(pad "5" thru_hole circle
@@ -150506,7 +150506,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "/ADC_B_IN6")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3c02bf36-95bb-4372-ab3c-02b075467ed4")
 		)
 		(pad "6" thru_hole circle
@@ -150516,7 +150516,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "/ADC_B_IN2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "92662dca-61d7-4e2d-84c3-4ec9c840a52b")
 		)
 		(pad "7" thru_hole circle
@@ -150526,7 +150526,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "/ADC_B_IN7")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "087c17b5-68bd-4d33-94b3-bd858646416d")
 		)
 		(pad "8" thru_hole circle
@@ -150536,7 +150536,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "/ADC_B_IN3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3a4e8520-aedf-4141-b913-dd8e49024e03")
 		)
 		(pad "9" thru_hole circle
@@ -150597,7 +150597,7 @@
 		(at 219.159 150.8695)
 		(descr "Based on: https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf")
 		(property "Reference" "J29"
-			(at -1.119 -0.8695 360)
+			(at -1.119 -0.8695 0)
 			(layer "F.SilkS")
 			(uuid "7cd7ff25-ca47-461a-9c98-89205fac47c3")
 			(effects
@@ -150609,7 +150609,7 @@
 			)
 		)
 		(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "bd223b6a-aaca-4486-9ec8-48a16fc336a8")
 			(effects
@@ -150621,7 +150621,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PogoPin_Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3393a345-9475-4dc5-bb9f-1cde73752a35")
@@ -150634,7 +150634,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/9a9332cff2ce4e77/original/DRG-02184-Technical-Drawing-Datasheet-S13-503-pdf.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d8c20a1-bda0-4add-8b83-f9fee72ad38d")
@@ -150647,7 +150647,7 @@
 			)
 		)
 		(property "Description" "Spring Probe Sleeve, Suitable for 1.27mm pitch"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77f134ca-9f0a-4e63-abc4-866c49d4a99a")
@@ -153088,7 +153088,7 @@
 			(uuid "971320e6-f025-4bdc-9821-a871d8b0469f")
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.75 5.15 360)
+			(at -0.75 5.15 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "746e7e86-cdae-4fd2-b63b-7f5dc8b0d176")
@@ -153101,7 +153101,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.75 3.95 360)
+			(at -0.75 3.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d4a60b3-022c-4877-a8b6-f2132e194933")
@@ -153114,7 +153114,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.75 2.75 360)
+			(at -0.75 2.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdb1c87e-c67a-46d3-a6a7-748f07ddbf2a")
@@ -161707,7 +161707,7 @@
 		(property "Reference" "H6"
 			(at -0.7 4.26 0)
 			(layer "F.SilkS")
-			(uuid "d5febf55-4c60-44b2-b12e-c08af6191205")
+			(uuid "49f30958-5f14-4415-92dd-5dc62f090fd7")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -161719,7 +161719,7 @@
 		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "c7a35be0-7812-4111-9808-4ecdc6e1ee26")
+			(uuid "2fd78954-6ef6-4d3f-9a65-c32a9e95e20a")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -161732,7 +161732,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "31d6e1fc-777b-4c59-893d-c9e121b3ba19")
+			(uuid "4a256c59-2d37-4491-b5c6-72d00de1d88b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161745,7 +161745,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e88471ee-0126-4201-90f5-2cc289f04181")
+			(uuid "e0a7621c-bee3-450a-b7fc-1e7e0025717e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161758,7 +161758,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9b217b97-e5e7-454e-9c3e-121afcd5fc40")
+			(uuid "82ccdf19-d301-42db-adb6-277e2c3c1739")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161829,7 +161829,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "725ded7e-6384-41a4-a160-8fc4acf9d998")
+			(uuid "36b2be51-dd00-4d6f-98b1-ebe9991a5ce7")
 		)
 		(fp_circle
 			(center 0 0)
@@ -161840,7 +161840,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "6856df45-9580-4070-bbd0-c9fe50fd83b0")
+			(uuid "fd346fa1-5c79-4575-bedd-9bfb032f3471")
 		)
 		(fp_circle
 			(center 0 0)
@@ -161851,7 +161851,7 @@
 			)
 			(fill none)
 			(layer "User.5")
-			(uuid "c6f09c2a-828b-4ea9-8aa1-bac0375369b5")
+			(uuid "78419555-4cdc-4dd7-88c4-97c05daed477")
 		)
 		(fp_circle
 			(center 0 0)
@@ -161862,7 +161862,7 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "3ef02bd4-d247-4459-b134-5696a058365f")
+			(uuid "7a25f868-3d76-4ff4-97a1-5b4b8113e891")
 		)
 		(fp_circle
 			(center 0 0)
@@ -161873,13 +161873,26 @@
 			)
 			(fill none)
 			(layer "User.9")
-			(uuid "9eee4fe8-cf33-4639-8faa-73c75ea7267a")
+			(uuid "16f3f2ad-e92f-4508-82fd-899a2ae1f6f7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -9.6 6.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11b6a8b5-945b-402a-80e3-29232ef32e6a")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "Author: Antmicro"
 			(at -9.6 7.7 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32706023-6c31-41c0-8310-b2197b8af6e6")
+			(uuid "3279b417-4b89-4a9a-a24c-0508a1353580")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -161892,20 +161905,7 @@
 			(at -9.6 8.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85319daa-bfc5-432d-a0e5-b14c764e8494")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at -9.6 6.5 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dafb1163-2f90-4a20-a059-2a746aa189fe")
+			(uuid "9758866a-819b-4928-86b7-ea7589928326")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -161932,7 +161932,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -161944,7 +161944,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -161956,7 +161956,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -161995,7 +161995,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d5bb1588-36ca-49da-804d-62878a629e4e")
+			(uuid "a7c2b08f-eee9-41e6-9f69-d5a4a68924c8")
 		)
 		(pad "" smd custom
 			(at -1.7 1.7 90)
@@ -162015,7 +162015,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -162027,7 +162027,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -162039,7 +162039,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -162078,7 +162078,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "a9819ff0-305b-4c9c-aeed-0c633b339292")
+			(uuid "8a25ce3c-0b09-4b2c-b4c9-9c4574944721")
 		)
 		(pad "" smd custom
 			(at 1.7 -1.7 270)
@@ -162098,7 +162098,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -162110,7 +162110,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -162122,7 +162122,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -162161,7 +162161,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "5ed69f78-50f8-4889-b8fc-987466fa695b")
+			(uuid "2c62498a-a92b-4c1e-995b-f659301be237")
 		)
 		(pad "" smd custom
 			(at 1.7 1.7 180)
@@ -162181,7 +162181,7 @@
 				)
 				(gr_arc
 					(start -0.34334 1.279127)
-					(mid 0.218448 0.232562)
+					(mid 0.218448 0.232561)
 					(end 1.259603 -0.339191)
 					(width 0.2)
 				)
@@ -162193,7 +162193,7 @@
 				)
 				(gr_arc
 					(start -0.529126 1.279127)
-					(mid 0.087543 0.105785)
+					(mid 0.087542 0.105784)
 					(end 1.253811 -0.524161)
 					(width 0.2)
 				)
@@ -162205,7 +162205,7 @@
 				)
 				(gr_arc
 					(start -0.71437 1.279127)
-					(mid -0.037759 -0.026651)
+					(mid -0.037758 -0.026651)
 					(end 1.263664 -0.711602)
 					(width 0.2)
 				)
@@ -162244,7 +162244,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "08e3b9d0-b3c0-4550-8f33-dfcf000cb010")
+			(uuid "00c90ace-32ac-45e0-bc3d-63c6d8dce9b5")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -162254,11 +162254,11 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "a1026738-49c5-48a3-a491-11269d48704a")
+			(uuid "f8906d33-398a-45bc-bf19-a2c309f82734")
 		)
 		(model "${ANT3DMDL}/9774065151.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)

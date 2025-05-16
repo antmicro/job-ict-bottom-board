@@ -1074,7 +1074,7 @@
 				)
 			)
 		)
-		(symbol "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
+		(symbol "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1088,7 +1088,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503"
+			(property "Value" "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM"
 				(at 22.86 -10.16 0)
 				(effects
 					(font
@@ -1184,7 +1184,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_1_1"
+			(symbol "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM_1_1"
 				(polyline
 					(pts
 						(xy 6.35 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27) (xy 6.35 1.27)
@@ -2790,6 +2790,93 @@
 				)
 			)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "antmicropower:VCC"
 			(power)
 			(pin_names
@@ -2903,6 +2990,12 @@
 		)
 	)
 	(junction
+		(at 59.69 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40aef95b-01e2-4f87-9e32-b72b59caada0")
+	)
+	(junction
 		(at 262.89 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2919,6 +3012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9515fded-207e-46c4-a208-b9f27c7561fb")
+	)
+	(junction
+		(at 73.66 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df79b15-6612-4e6a-9d6d-de495f97e2df")
 	)
 	(junction
 		(at 262.89 60.96)
@@ -2943,28 +3042,196 @@
 		(uuid "0229c866-ea79-449f-bdc8-4156cf42a64b")
 	)
 	(no_connect
+		(at 50.8 190.5)
+		(uuid "0fe8eee2-6631-4ef6-aaa9-abf3d7c37e18")
+	)
+	(no_connect
+		(at 50.8 101.6)
+		(uuid "13cfa292-c440-474f-acc5-3b7dc4da69f9")
+	)
+	(no_connect
+		(at 50.8 154.94)
+		(uuid "14f683e0-014a-4d45-a133-d7d5decbbd59")
+	)
+	(no_connect
+		(at 50.8 160.02)
+		(uuid "19506dfc-4043-4c8c-9153-b9517dadabc3")
+	)
+	(no_connect
+		(at 83.82 154.94)
+		(uuid "1b1eed93-ab4f-4aa3-8300-711f4269c085")
+	)
+	(no_connect
+		(at 83.82 106.68)
+		(uuid "1d39b631-2a52-4839-8038-6e311f079a45")
+	)
+	(no_connect
+		(at 50.8 106.68)
+		(uuid "2a940e4c-4031-4a02-98e2-d1f93352ea99")
+	)
+	(no_connect
+		(at 50.8 78.74)
+		(uuid "2f2e9bdf-9e69-4a07-bbfb-324b086b06a1")
+	)
+	(no_connect
+		(at 50.8 127)
+		(uuid "360e3643-55e5-4aa9-87ab-de521d485bdd")
+	)
+	(no_connect
+		(at 83.82 185.42)
+		(uuid "36eb0c6d-9ac5-407e-8eb5-d8e936d02b9a")
+	)
+	(no_connect
 		(at 160.02 87.63)
 		(uuid "3aaab370-f810-4a37-b7ac-eb2e8092d6f2")
+	)
+	(no_connect
+		(at 83.82 187.96)
+		(uuid "4016a170-2d59-4260-9ef5-54eef3dde41e")
+	)
+	(no_connect
+		(at 83.82 101.6)
+		(uuid "40decc9b-8b43-43bc-ac5a-7e804b182ad4")
+	)
+	(no_connect
+		(at 83.82 160.02)
+		(uuid "49a3190e-2d62-4d58-9f01-4706fbd7ce6b")
+	)
+	(no_connect
+		(at 50.8 218.44)
+		(uuid "4e916e53-78f9-42c7-8de6-cbbbdafc98c8")
+	)
+	(no_connect
+		(at 50.8 134.62)
+		(uuid "56a472bb-dd48-475d-b3b1-d239f250bb23")
+	)
+	(no_connect
+		(at 83.82 99.06)
+		(uuid "5a53322b-6504-47a0-9e0a-e7f380f1cf11")
+	)
+	(no_connect
+		(at 83.82 132.08)
+		(uuid "6d43eb3e-d043-4e84-801b-540ff6575a7d")
+	)
+	(no_connect
+		(at 83.82 71.12)
+		(uuid "6df340dd-ddb4-476a-983c-09e2883b2e32")
+	)
+	(no_connect
+		(at 50.8 185.42)
+		(uuid "75933106-7a40-4cae-8586-1324694913a8")
+	)
+	(no_connect
+		(at 50.8 187.96)
+		(uuid "78fa5015-6a94-4444-ba7b-5787c6bf1c01")
 	)
 	(no_connect
 		(at 160.02 64.77)
 		(uuid "7eaaa2ff-8255-4806-aee6-1be2c338ba6c")
 	)
 	(no_connect
+		(at 50.8 213.36)
+		(uuid "7fab701e-c9fd-47c6-bfa6-afb6d165c32b")
+	)
+	(no_connect
 		(at 160.02 102.87)
 		(uuid "82fc920d-c5b0-4919-880d-052fdd8e3f5d")
+	)
+	(no_connect
+		(at 83.82 190.5)
+		(uuid "895d0a2e-82b0-4544-9d75-36c5eeb0642e")
 	)
 	(no_connect
 		(at 160.02 80.01)
 		(uuid "8ab2212d-6478-4c69-91f6-313bde69f924")
 	)
 	(no_connect
+		(at 83.82 76.2)
+		(uuid "8d04a8e5-4168-495e-a8ce-78483e449c21")
+	)
+	(no_connect
+		(at 83.82 162.56)
+		(uuid "8d389caf-758e-4bbc-a8a7-587d4329f515")
+	)
+	(no_connect
+		(at 83.82 157.48)
+		(uuid "900d828b-bc43-40fc-b40a-6755e2812f61")
+	)
+	(no_connect
+		(at 50.8 99.06)
+		(uuid "9852ee34-054a-4781-92cd-78bed7eeb978")
+	)
+	(no_connect
+		(at 83.82 73.66)
+		(uuid "9fec4cd4-1391-4859-953c-8ccc5f1ee2c5")
+	)
+	(no_connect
+		(at 50.8 76.2)
+		(uuid "a5bea4f7-f200-4794-99b1-74d891578513")
+	)
+	(no_connect
+		(at 83.82 182.88)
+		(uuid "a8a9780f-6281-4806-b4ba-6cf7f74a81dd")
+	)
+	(no_connect
+		(at 50.8 182.88)
+		(uuid "aa168804-ecc1-4296-bb30-ddd888ea49a3")
+	)
+	(no_connect
+		(at 50.8 73.66)
+		(uuid "b1de29e5-e016-4f85-9ef0-6c950a0ab284")
+	)
+	(no_connect
 		(at 160.02 72.39)
 		(uuid "b2785d72-25f1-4f90-abe9-2d3daa54b73b")
 	)
 	(no_connect
+		(at 50.8 157.48)
+		(uuid "c1db2a5d-1189-4ff2-a005-a18ac9581c81")
+	)
+	(no_connect
+		(at 50.8 104.14)
+		(uuid "c42ff883-9a27-46a3-9c5b-8569ff62035a")
+	)
+	(no_connect
+		(at 50.8 129.54)
+		(uuid "c54bf6a5-9279-4ad5-992b-f9b8c5d2b73b")
+	)
+	(no_connect
+		(at 83.82 134.62)
+		(uuid "c8f28e73-1fe9-421e-ab0e-b3ff639cf9c8")
+	)
+	(no_connect
 		(at 160.02 95.25)
 		(uuid "d36435d5-fd4b-48f3-b4dd-a3db7e67513c")
+	)
+	(no_connect
+		(at 83.82 78.74)
+		(uuid "d5f72aa1-188a-4ced-9784-f9d0fdb327da")
+	)
+	(no_connect
+		(at 50.8 210.82)
+		(uuid "d70c2d74-f115-4330-b815-edcf5414b593")
+	)
+	(no_connect
+		(at 50.8 162.56)
+		(uuid "da899664-eebb-4e76-8c8b-87e0dc7d8cce")
+	)
+	(no_connect
+		(at 83.82 104.14)
+		(uuid "e1faec4b-2787-4a55-b164-91af78856b83")
+	)
+	(no_connect
+		(at 50.8 215.9)
+		(uuid "ea2e5f72-d352-45b7-b9d8-069883058c82")
+	)
+	(no_connect
+		(at 50.8 132.08)
+		(uuid "f3d59ea1-4c8a-469e-aa63-f1081d1f104d")
+	)
+	(no_connect
+		(at 50.8 71.12)
+		(uuid "fd502d9c-40a4-4395-ad6f-f8402859dfef")
 	)
 	(wire
 		(pts
@@ -3125,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "16338172-ae49-46ff-8ded-50f59e71e394")
+	)
+	(wire
+		(pts
+			(xy 59.69 241.3) (xy 50.8 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d88d254-0c2b-4d17-90ba-f8e82976932e")
 	)
 	(wire
 		(pts
@@ -3406,6 +3683,16 @@
 		)
 		(uuid "45e30315-6498-40dc-8e47-7edfa1ff31cf")
 	)
+	(wire
+		(pts
+			(xy 82.55 241.3) (xy 82.55 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b8b644-05eb-4160-b26c-67a1239a64b4")
+	)
 	(polyline
 		(pts
 			(xy 93.98 93.98) (xy 104.14 93.98)
@@ -3476,6 +3763,16 @@
 		)
 		(uuid "56e78956-504f-4d5e-977b-bc2d619f1a7c")
 	)
+	(wire
+		(pts
+			(xy 50.8 241.3) (xy 50.8 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ea1dc9-c770-4d4d-aa70-61c92a464b5c")
+	)
 	(polyline
 		(pts
 			(xy 104.14 93.98) (xy 104.14 118.11)
@@ -3518,7 +3815,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 241.3) (xy 59.69 242.57)
+			(xy 59.69 240.03) (xy 59.69 241.3)
 		)
 		(stroke
 			(width 0)
@@ -3816,6 +4113,16 @@
 		)
 		(uuid "7cbbc6de-c474-48ab-87d9-e28d2e0439ff")
 	)
+	(wire
+		(pts
+			(xy 50.8 254) (xy 50.8 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbe4221-d095-447e-90ea-c6f383b03c78")
+	)
 	(polyline
 		(pts
 			(xy 204.47 52.07) (xy 204.47 53.34)
@@ -3835,6 +4142,16 @@
 			(type default)
 		)
 		(uuid "7efb4fca-a37e-4e5b-b6a5-bfc178ff4076")
+	)
+	(wire
+		(pts
+			(xy 73.66 241.3) (xy 73.66 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809e0006-1792-41f0-ba19-38c6acf32d97")
 	)
 	(wire
 		(pts
@@ -4028,7 +4345,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 241.3) (xy 73.66 242.57)
+			(xy 73.66 240.03) (xy 73.66 241.3)
 		)
 		(stroke
 			(width 0)
@@ -4165,6 +4482,16 @@
 			(type default)
 		)
 		(uuid "afe21ea3-c250-4b2b-b7f5-78c893a76577")
+	)
+	(wire
+		(pts
+			(xy 59.69 241.3) (xy 59.69 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b097efc5-21dd-4dd7-8397-15292a76a6fb")
 	)
 	(wire
 		(pts
@@ -4405,6 +4732,16 @@
 			(type default)
 		)
 		(uuid "db084466-d04b-43a8-af02-9cc57b6a4d5d")
+	)
+	(wire
+		(pts
+			(xy 73.66 241.3) (xy 82.55 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db923369-7530-4d0b-b342-d8f3ff6c7fae")
 	)
 	(wire
 		(pts
@@ -8468,6 +8805,100 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 50.8 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b834d2-63bb-4b08-9afa-f4ed3e477a96")
+		(property "Reference" "#PWR051"
+			(at 59.69 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 59.69 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 59.69 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "256b16f4-07eb-4364-9a9e-24807b0ec09f")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 259.08 76.2 0)
 		(unit 1)
@@ -9097,7 +9528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9216,7 +9647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9329,6 +9760,71 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 82.55 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d748aa-708f-4656-b461-492761f99eb7")
+		(property "Reference" "#FLG02"
+			(at 82.55 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.55 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03ac797e-6aa0-49e8-97c4-17671719894e")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9725,7 +10221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10228,7 +10724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11024,7 +11520,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")
-		(at 73.66 241.3 0)
+		(at 73.66 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11032,7 +11528,7 @@
 		(dnp no)
 		(uuid "4464afe7-d464-4570-935b-058995c70a36")
 		(property "Reference" "#PWR046"
-			(at 73.66 245.11 0)
+			(at 73.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11537,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 73.66 237.49 0)
+			(at 73.66 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 241.3 0)
+			(at 73.66 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 241.3 0)
+			(at 73.66 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 241.3 0)
+			(at 73.66 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +12000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12218,7 +12714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12604,7 +13100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12723,7 +13219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13668,7 +14164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14182,7 +14678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 283.21 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14301,7 +14797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 283.21 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14699,7 +15195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15063,7 +15559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15461,7 +15957,72 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 50.8 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ee65d15-7677-44ff-b527-8c14836c5b2d")
+		(property "Reference" "#FLG03"
+			(at 50.8 252.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae29aa5b-bbec-40aa-9210-4d39119cd8d0")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15975,7 +16536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 283.21 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17275,7 +17836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 283.21 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17722,7 +18283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17935,7 +18496,72 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 50.8 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd76ee06-ceee-464e-9052-449875ab7f8d")
+		(property "Reference" "#FLG01"
+			(at 50.8 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03179b8-1a15-4a66-94ff-e2d6b51e485e")
+		)
+		(instances
+			(project ""
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18245,7 +18871,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 59.69 241.3 0)
+		(at 59.69 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18253,7 +18879,7 @@
 		(dnp no)
 		(uuid "c4025297-964a-4e44-951e-f24d7aa48a53")
 		(property "Reference" "#PWR045"
-			(at 74.93 241.3 0)
+			(at 74.93 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18264,7 +18890,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 59.69 237.49 0)
+			(at 59.69 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18273,7 +18899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 248.92 0)
+			(at 74.93 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18284,7 +18910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 251.46 0)
+			(at 74.93 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +18921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 241.3 0)
+			(at 59.69 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18304,7 +18930,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 74.93 243.84 0)
+			(at 74.93 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18941,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 74.93 246.38 0)
+			(at 74.93 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19061,7 +19687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 283.21 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19880,7 +20506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19999,7 +20625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20554,7 +21180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 283.21 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20673,7 +21299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503")
+		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)

@@ -59,14 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|142465000|121285000|713db625-2533-4b51-aba5-31fe88cb90de|b2ce695b-3d29-4a2b-b9b4-789eb77810f4",
-        "lib_footprint_mismatch|144750000|123750000|12f915fa-a67c-4f28-88cb-6d3afdd0c9ba|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|144750000|72250000|7351e033-db71-4bf9-b440-b3739a4f0906|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|39750000|123750000|4f2e6a35-32ac-447d-ac9f-d7c07cd47dc9|00000000-0000-0000-0000-000000000000",
-        "pth_inside_courtyard|144750000|72250000|1639aa27-f5ab-4305-a86f-2200bbf0adb4|9bbe1a58-7c11-4bce-a72b-701d25c98766",
-        "silk_over_copper|78809000|124556396|5721641b-f3a2-4fe0-899b-b3e1dd6ec2b5|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
