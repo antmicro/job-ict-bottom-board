@@ -3048,10 +3048,6 @@
 		(uuid "0229c866-ea79-449f-bdc8-4156cf42a64b")
 	)
 	(no_connect
-		(at 50.8 190.5)
-		(uuid "0fe8eee2-6631-4ef6-aaa9-abf3d7c37e18")
-	)
-	(no_connect
 		(at 50.8 101.6)
 		(uuid "13cfa292-c440-474f-acc5-3b7dc4da69f9")
 	)
@@ -3084,16 +3080,12 @@
 		(uuid "360e3643-55e5-4aa9-87ab-de521d485bdd")
 	)
 	(no_connect
-		(at 83.82 185.42)
-		(uuid "36eb0c6d-9ac5-407e-8eb5-d8e936d02b9a")
-	)
-	(no_connect
 		(at 160.02 87.63)
 		(uuid "3aaab370-f810-4a37-b7ac-eb2e8092d6f2")
 	)
 	(no_connect
-		(at 83.82 187.96)
-		(uuid "4016a170-2d59-4260-9ef5-54eef3dde41e")
+		(at 83.82 182.88)
+		(uuid "3bea992b-ba72-457d-ac0b-adc96f639fe5")
 	)
 	(no_connect
 		(at 83.82 101.6)
@@ -3116,16 +3108,12 @@
 		(uuid "5a53322b-6504-47a0-9e0a-e7f380f1cf11")
 	)
 	(no_connect
+		(at 83.82 190.5)
+		(uuid "5b224952-5041-48ba-88b2-10675ce90f67")
+	)
+	(no_connect
 		(at 83.82 71.12)
 		(uuid "6df340dd-ddb4-476a-983c-09e2883b2e32")
-	)
-	(no_connect
-		(at 50.8 185.42)
-		(uuid "75933106-7a40-4cae-8586-1324694913a8")
-	)
-	(no_connect
-		(at 50.8 187.96)
-		(uuid "78fa5015-6a94-4444-ba7b-5787c6bf1c01")
 	)
 	(no_connect
 		(at 160.02 64.77)
@@ -3138,10 +3126,6 @@
 	(no_connect
 		(at 160.02 102.87)
 		(uuid "82fc920d-c5b0-4919-880d-052fdd8e3f5d")
-	)
-	(no_connect
-		(at 83.82 190.5)
-		(uuid "895d0a2e-82b0-4544-9d75-36c5eeb0642e")
 	)
 	(no_connect
 		(at 160.02 80.01)
@@ -3172,14 +3156,6 @@
 		(uuid "a5bea4f7-f200-4794-99b1-74d891578513")
 	)
 	(no_connect
-		(at 83.82 182.88)
-		(uuid "a8a9780f-6281-4806-b4ba-6cf7f74a81dd")
-	)
-	(no_connect
-		(at 50.8 182.88)
-		(uuid "aa168804-ecc1-4296-bb30-ddd888ea49a3")
-	)
-	(no_connect
 		(at 50.8 73.66)
 		(uuid "b1de29e5-e016-4f85-9ef0-6c950a0ab284")
 	)
@@ -3198,6 +3174,10 @@
 	(no_connect
 		(at 50.8 129.54)
 		(uuid "c54bf6a5-9279-4ad5-992b-f9b8c5d2b73b")
+	)
+	(no_connect
+		(at 83.82 187.96)
+		(uuid "c825aff2-2600-4d2f-ba88-6d7c2a43af98")
 	)
 	(no_connect
 		(at 83.82 134.62)
@@ -3234,6 +3214,10 @@
 	(no_connect
 		(at 50.8 71.12)
 		(uuid "fd502d9c-40a4-4395-ad6f-f8402859dfef")
+	)
+	(no_connect
+		(at 83.82 185.42)
+		(uuid "fda91ea3-7bd9-4af4-961a-452931eff307")
 	)
 	(wire
 		(pts
@@ -3277,6 +3261,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 252.73) (xy 129.54 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066da3ae-04d1-4bde-b0a3-2d4573620b79")
+	)
+	(wire
+		(pts
 			(xy 142.24 133.35) (xy 160.02 133.35)
 		)
 		(stroke
@@ -3294,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "09ab2166-27ec-42b5-ae23-2936aa446dea")
+	)
+	(wire
+		(pts
+			(xy 242.57 240.03) (xy 242.57 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d81e0cf-32f6-4d91-8ee2-2ce6d5b5e52f")
 	)
 	(wire
 		(pts
@@ -3417,6 +3421,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 240.03) (xy 163.83 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2299d9a3-f93a-4cad-af6d-79a12d11319f")
+	)
+	(wire
+		(pts
 			(xy 142.24 140.97) (xy 160.02 140.97)
 		)
 		(stroke
@@ -3484,6 +3498,16 @@
 			(type default)
 		)
 		(uuid "2ba923c1-42c4-4cda-8e00-faec6c98458d")
+	)
+	(wire
+		(pts
+			(xy 198.12 252.73) (xy 208.28 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecd3f26-2a09-4281-91d7-6f6e06184b33")
 	)
 	(wire
 		(pts
@@ -3717,6 +3741,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 240.03) (xy 124.46 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e3996b-cd57-4c79-a343-b422837e40a1")
+	)
+	(wire
+		(pts
 			(xy 262.89 60.96) (xy 271.78 60.96)
 		)
 		(stroke
@@ -3764,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "56e78956-504f-4d5e-977b-bc2d619f1a7c")
+	)
+	(wire
+		(pts
+			(xy 247.65 240.03) (xy 242.57 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5841a5f3-69ff-4ec7-a976-4ccc99fb60f8")
 	)
 	(wire
 		(pts
@@ -3857,6 +3901,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 240.03) (xy 163.83 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61324d76-4abf-46fc-aa29-39231c7218c2")
+	)
+	(wire
+		(pts
 			(xy 247.65 83.82) (xy 259.08 83.82)
 		)
 		(stroke
@@ -3864,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "6191b658-4460-46d0-b139-2fcca3f59ad7")
+	)
+	(wire
+		(pts
+			(xy 203.2 240.03) (xy 203.2 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62944a02-1c7d-4a97-a848-d558ec69375b")
 	)
 	(polyline
 		(pts
@@ -3964,6 +4028,16 @@
 			(type default)
 		)
 		(uuid "71770bc8-93b5-4655-b1e3-04c10fdba48e")
+	)
+	(wire
+		(pts
+			(xy 158.75 246.38) (xy 168.91 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b270dd-27ab-4125-8b80-e19385875dc9")
 	)
 	(wire
 		(pts
@@ -4174,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "82cb0bfb-f69a-47df-bdd3-110da0d10ca8")
+	)
+	(wire
+		(pts
+			(xy 124.46 240.03) (xy 124.46 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83457093-545d-4829-a2f8-8480ed86f8ab")
 	)
 	(polyline
 		(pts
@@ -4407,6 +4491,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 240.03) (xy 203.2 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78d1eef-2903-4da3-b08e-4a51f4abd101")
+	)
+	(wire
+		(pts
 			(xy 59.69 83.82) (xy 62.23 83.82)
 		)
 		(stroke
@@ -4537,6 +4631,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 246.38) (xy 247.65 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53f05f0-1554-4a36-9e60-9703f1a68f96")
+	)
+	(wire
+		(pts
 			(xy 157.48 194.31) (xy 157.48 196.85)
 		)
 		(stroke
@@ -4544,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "b67d8139-7fa4-4511-b196-9ef00c9edbad")
+	)
+	(wire
+		(pts
+			(xy 119.38 246.38) (xy 129.54 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab6b7a1-dbcf-40d6-afb7-f01a12379857")
 	)
 	(wire
 		(pts
@@ -4594,6 +4708,16 @@
 			(type default)
 		)
 		(uuid "c3619eba-759c-4e49-95a8-b446f8172c47")
+	)
+	(wire
+		(pts
+			(xy 237.49 252.73) (xy 247.65 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43e42aa-307a-4e2e-8d78-38347b87d12f")
 	)
 	(wire
 		(pts
@@ -4767,6 +4891,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 252.73) (xy 168.91 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd53cb1-733c-414b-baec-55e18b5f0962")
+	)
+	(wire
+		(pts
 			(xy 73.66 247.65) (xy 73.66 248.92)
 		)
 		(stroke
@@ -4814,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "e233255b-4e9a-4474-9dc2-e61d5ef811e6")
+	)
+	(wire
+		(pts
+			(xy 198.12 246.38) (xy 208.28 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3da1faf-9234-4969-90f4-47b93e853374")
 	)
 	(polyline
 		(pts
@@ -7167,6 +7311,18 @@
 		)
 		(uuid "14839db0-8030-4217-83b1-bfa97ac49cc5")
 	)
+	(text "Spring Probes"
+		(exclude_from_sim no)
+		(at 226.568 26.162 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "1966ab38-b010-4c6c-af59-a0afe213793d")
+	)
 	(text "JOB Signal: TP44 (CLK_32K_OUT)"
 		(exclude_from_sim no)
 		(at 180.594 72.644 0)
@@ -7341,6 +7497,18 @@
 			(justify left)
 		)
 		(uuid "9a4af277-d034-4e57-8812-5b5ef9f70dba")
+	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 197.358 218.44 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "9ecf87c6-0d8e-4087-8df6-88074107b3ac")
 	)
 	(text "Analog: 0-5V"
 		(exclude_from_sim no)
@@ -7527,6 +7695,17 @@
 		)
 		(uuid "05cf2b9a-5736-45e9-a69f-4207eae177e6")
 	)
+	(label "GPIO_24"
+		(at 198.12 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08d2fb33-3c8b-4aad-931d-cc83dd28ee63")
+	)
 	(label "GPIO_36"
 		(at 50.8 160.02 0)
 		(fields_autoplaced yes)
@@ -7559,6 +7738,17 @@
 			(justify left bottom)
 		)
 		(uuid "15304b4a-4c2d-4efa-b051-f80a4f825fd2")
+	)
+	(label "GPIO_26"
+		(at 237.49 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1598fa68-855d-409d-a2a0-d5c48f3572e9")
 	)
 	(label "SPI_SCLK"
 		(at 247.65 76.2 0)
@@ -7769,6 +7959,28 @@
 		)
 		(uuid "5873382c-c55e-4c85-99c1-44741939bd5f")
 	)
+	(label "GPIO_25"
+		(at 198.12 252.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5def67f5-be37-4232-b22f-dffc7561e6bb")
+	)
+	(label "GPIO_34"
+		(at 119.38 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "617710fc-4aa2-4a9b-bb5b-13c51edf87ec")
+	)
 	(label "ADC_A_IN2"
 		(at 83.82 48.26 180)
 		(fields_autoplaced yes)
@@ -7823,6 +8035,17 @@
 			(justify right bottom)
 		)
 		(uuid "702278be-47b0-4547-a89a-304f8e8f7991")
+	)
+	(label "GPIO_37"
+		(at 158.75 252.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71701695-72c1-4571-81db-db0592ffcfee")
 	)
 	(label "GPIO_23"
 		(at 83.82 190.5 180)
@@ -7889,6 +8112,17 @@
 			(justify left bottom)
 		)
 		(uuid "80fe77bd-701e-4b46-800d-75ca9203b6aa")
+	)
+	(label "GPIO_35"
+		(at 119.38 252.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87657d59-346e-459e-8f77-0c19f17ac04b")
 	)
 	(label "SPI_MOSI"
 		(at 83.82 215.9 180)
@@ -8143,6 +8377,17 @@
 		)
 		(uuid "bf7dfd0d-39e2-46cc-b11a-4b7f6917023a")
 	)
+	(label "GPIO_27"
+		(at 237.49 252.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c49001ee-59ba-4f5d-81ec-08b7df262dc7")
+	)
 	(label "GPIO_04"
 		(at 50.8 127 0)
 		(fields_autoplaced yes)
@@ -8263,6 +8508,17 @@
 			(justify right bottom)
 		)
 		(uuid "f35b6cb3-4969-4e0d-95bb-201ee3c67312")
+	)
+	(label "GPIO_36"
+		(at 158.75 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f54d3426-a946-49a3-8426-846bbb3d56ff")
 	)
 	(label "GPIO_03"
 		(at 83.82 134.62 180)
@@ -9064,6 +9320,100 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 163.83 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b962e4f-5ef7-4118-9424-d5187858f1dd")
+		(property "Reference" "#PWR054"
+			(at 179.07 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 179.07 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 179.07 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "071c0f4c-161f-4699-aa52-6ff95f390b59")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10237,6 +10587,100 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 124.46 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b15e752-5bca-42af-89e4-fa0b53536a1c")
+		(property "Reference" "#PWR053"
+			(at 139.7 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 139.7 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 139.7 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd517cbf-48df-462a-a19f-2df3d0dc99b5")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17583,6 +18027,100 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 242.57 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae0d2d62-59b4-4e92-b70a-3b5ca95325d2")
+		(property "Reference" "#PWR064"
+			(at 257.81 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 242.57 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 257.81 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 257.81 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef4726ce-6144-40e7-958a-42ed6e5be73f")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroGenericPinHeaders:PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal")
 		(at 62.23 43.18 0)
 		(unit 1)
@@ -20831,6 +21369,100 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 203.2 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0aae57e-c5be-48e9-a0c5-2576f8eae808")
+		(property "Reference" "#PWR063"
+			(at 218.44 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.2 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 218.44 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 218.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa875765-1da5-4bff-ad1f-ae92ab13f8e2")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 262.89 58.42 90)
 		(unit 1)
@@ -21689,6 +22321,278 @@
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "#PWR025")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 237.49)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c8eff45-5dcb-4b03-8d03-5bc529aabf64")
+		(property "Sheetname" "LED0"
+			(at 129.54 236.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rg_led.kicad_sch"
+			(at 129.54 257.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_VDD" input
+			(at 129.54 240.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a99c66f-bfc6-491a-9c21-4175df9c53b8")
+		)
+		(pin "G_ON" input
+			(at 129.54 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "920ff957-bae1-4ecd-a02f-408c49f9cd72")
+		)
+		(pin "R_ON" input
+			(at 129.54 252.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e10011c-346c-4fc5-a169-c87b7dc8e209")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 237.49)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71be9696-f132-4249-a65b-675828057d7e")
+		(property "Sheetname" "LED3"
+			(at 247.65 236.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rg_led.kicad_sch"
+			(at 247.65 257.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_VDD" input
+			(at 247.65 240.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c81ebe1-981c-42d5-8738-e6ebc3ba5e1d")
+		)
+		(pin "G_ON" input
+			(at 247.65 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35099c3b-01b3-484c-917b-4f47dc15c954")
+		)
+		(pin "R_ON" input
+			(at 247.65 252.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76885aa0-cd90-4add-a8ec-5ecb9b859490")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 237.49)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a65537cd-579c-4421-9ceb-eb889d2871a7")
+		(property "Sheetname" "LED2"
+			(at 208.28 236.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rg_led.kicad_sch"
+			(at 208.28 257.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_VDD" input
+			(at 208.28 240.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1ab248c-ecf4-4aeb-bb12-ae2023975da9")
+		)
+		(pin "G_ON" input
+			(at 208.28 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8b15822-718d-4675-b859-48cafb576750")
+		)
+		(pin "R_ON" input
+			(at 208.28 252.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36a90dd7-e839-4922-a1e5-e9cfadd23969")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 237.49)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dec45dd3-d7e6-4fe7-810b-99ab105c3963")
+		(property "Sheetname" "LED1"
+			(at 168.91 236.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rg_led.kicad_sch"
+			(at 168.91 257.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_VDD" input
+			(at 168.91 240.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c95ee6c-a248-4f15-ae0b-80897754e54f")
+		)
+		(pin "G_ON" input
+			(at 168.91 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3e20426-fd74-409d-b965-94b5c39ed9b7")
+		)
+		(pin "R_ON" input
+			(at 168.91 252.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "abe59c8e-638b-446b-8cba-24179c10f12e")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(page "3")
 				)
 			)
 		)
