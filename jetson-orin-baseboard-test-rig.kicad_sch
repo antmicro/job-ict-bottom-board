@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson Orin Baseboard Test Rig")
-		(date "2025-05-15")
+		(date "2025-05-16")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
