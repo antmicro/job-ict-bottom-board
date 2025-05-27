@@ -1053,7 +1053,7 @@
 				)
 			)
 		)
-		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R"
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1067,7 +1067,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
+			(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
 				(at 22.86 -5.08 0)
 				(effects
 					(font
@@ -1077,7 +1077,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
+			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
 				(at 22.86 -7.62 0)
 				(effects
 					(font
@@ -1088,7 +1088,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
 				(at 22.86 -10.16 0)
 				(effects
 					(font
@@ -1099,7 +1099,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
+			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1119,7 +1119,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "9774030151R"
+			(property "MPN" "9774050151R"
 				(at 22.86 -15.24 0)
 				(effects
 					(font
@@ -1161,7 +1161,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Spacer_Drill3.7mm_H3mm_9774030151R_1_1"
+			(symbol "Spacer_Drill3.7mm_H5mm_9774050151R_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -11885,123 +11885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 311.15 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1382e7e3-457b-49a5-95ca-02b34a8b3488")
-		(property "Reference" "H1"
-			(at 320.04 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 320.04 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 334.01 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 334.01 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 311.15 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 334.01 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 334.01 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 334.01 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cc8a2d3-1673-4dce-afcc-e0a8f6bc6707")
-		)
-		(instances
-			(project "jetson-orin-baseboard-test-rig"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 74.93 139.7 270)
 		(unit 1)
@@ -17298,123 +17181,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 311.15 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ee157d-1880-42fa-9223-23747b07204b")
-		(property "Reference" "H7"
-			(at 320.04 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 320.04 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 334.01 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 334.01 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 311.15 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 334.01 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 334.01 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 334.01 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce6cd35e-1316-4c4f-982f-2411e1750b18")
-		)
-		(instances
-			(project "jetson-orin-baseboard-test-rig"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM")
 		(at 160.02 64.77 0)
 		(unit 1)
@@ -18055,6 +17821,123 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 311.15 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bde19a4-47cb-4080-b370-c132200b4a8c")
+		(property "Reference" "H2"
+			(at 320.04 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 320.04 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 334.01 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 334.01 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 311.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 334.01 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 334.01 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 334.01 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 334.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8021732d-d153-40bb-aebe-618360ccb42a")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -19171,6 +19054,123 @@
 			(project ""
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 311.15 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c17e57b-f047-477d-b554-af2079dd602b")
+		(property "Reference" "H8"
+			(at 320.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 320.04 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 334.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 334.01 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 311.15 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 334.01 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 334.01 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 334.01 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 334.01 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4048ca1a-9bf1-4fa5-b52c-bde0d6fd9352")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -20733,6 +20733,123 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 311.15 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ea916e0-dd14-430b-ad64-a1473e1e47be")
+		(property "Reference" "H1"
+			(at 320.04 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 320.04 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 334.01 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 334.01 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 311.15 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 334.01 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 334.01 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 334.01 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "619d94e0-5a9d-4109-a717-f288d565927f")
+		)
+		(instances
+			(project ""
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -23135,123 +23252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 311.15 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2250c8e-4609-4a4d-ae14-658c9cd292a6")
-		(property "Reference" "H2"
-			(at 320.04 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 320.04 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 334.01 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 334.01 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 311.15 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 334.01 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 334.01 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 334.01 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "751ff733-43f0-4fdd-8775-fe8757d28fb1")
-		)
-		(instances
-			(project "jetson-orin-baseboard-test-rig"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 59.69 139.7 90)
 		(unit 1)
@@ -25205,123 +25205,6 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R")
-		(at 311.15 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8d47726-0117-4414-af26-2890aa2d5d4e")
-		(property "Reference" "H8"
-			(at 320.04 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 320.04 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R"
-			(at 334.01 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774030151.pdf"
-			(at 334.01 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spacer, SMT,  Steel, Swage Round, 5.1mmx3mm, M3 Thread, WA-SMSI Series"
-			(at 311.15 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 334.01 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774030151R"
-			(at 334.01 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 334.01 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "044f1e3d-8640-4cb3-8007-32c29b1dc530")
-		)
-		(instances
-			(project "jetson-orin-baseboard-test-rig"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -27929,6 +27812,123 @@
 			(project "jetson-orin-baseboard-test-rig"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
 					(reference "#GND_01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
+		(at 311.15 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21c3b0f-615c-4c58-875c-849580f55a57")
+		(property "Reference" "H7"
+			(at 320.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 320.04 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
+			(at 334.01 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
+			(at 334.01 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
+			(at 311.15 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 334.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774050151R"
+			(at 334.01 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 334.01 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 334.01 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be2fa323-06b9-4e94-8dc0-0b8e37b8bc8c")
+		)
+		(instances
+			(project "jetson-orin-baseboard-test-rig"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "H7")
 					(unit 1)
 				)
 			)
