@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4b393452-b11e-416e-bc83-918ae3cab2f1")
 	(paper "A3")
 	(title_block
@@ -13,8 +13,12 @@
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -217,6 +221,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroGenericPinHeaders:PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal"
 			(exclude_from_sim no)
@@ -341,41 +346,8 @@
 					)
 				)
 				(rectangle
-					(start 3.556 -12.446)
-					(end 4.064 -12.954)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.556 -9.906)
-					(end 4.064 -10.414)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.556 -7.366)
-					(end 4.064 -7.874)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.556 -4.826)
-					(end 4.064 -5.334)
+					(start 3.556 0.254)
+					(end 4.064 -0.254)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -396,8 +368,8 @@
 					)
 				)
 				(rectangle
-					(start 3.556 0.254)
-					(end 4.064 -0.254)
+					(start 3.556 -4.826)
+					(end 4.064 -5.334)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -407,8 +379,8 @@
 					)
 				)
 				(rectangle
-					(start 6.096 -12.446)
-					(end 6.604 -12.954)
+					(start 3.556 -7.366)
+					(end 4.064 -7.874)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -418,8 +390,8 @@
 					)
 				)
 				(rectangle
-					(start 6.096 -9.906)
-					(end 6.604 -10.414)
+					(start 3.556 -9.906)
+					(end 4.064 -10.414)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -429,8 +401,8 @@
 					)
 				)
 				(rectangle
-					(start 6.096 -7.366)
-					(end 6.604 -7.874)
+					(start 3.556 -12.446)
+					(end 4.064 -12.954)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -440,8 +412,8 @@
 					)
 				)
 				(rectangle
-					(start 6.096 -4.826)
-					(end 6.604 -5.334)
+					(start 6.096 0.254)
+					(end 6.604 -0.254)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -462,8 +434,41 @@
 					)
 				)
 				(rectangle
-					(start 6.096 0.254)
-					(end 6.604 -0.254)
+					(start 6.096 -4.826)
+					(end 6.604 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -7.366)
+					(end 6.604 -7.874)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -9.906)
+					(end 6.604 -10.414)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -12.446)
+					(end 6.604 -12.954)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -491,78 +496,6 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -12.7 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "~"
@@ -573,24 +506,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -617,24 +532,6 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -7.62 0)
 					(length 2.54)
 					(name "~"
@@ -645,6 +542,96 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -671,7 +658,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -680,7 +667,25 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,10 +694,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608CGCK"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -839,7 +849,7 @@
 			(symbol "LED_G_0603_KP-1608CGCK_1_1"
 				(polyline
 					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
+						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -851,19 +861,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
+						(xy 1.778 1.016) (xy 1.778 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -883,6 +881,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin passive line
@@ -922,9 +932,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1052,6 +1065,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R"
 			(exclude_from_sim no)
@@ -1203,6 +1217,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(exclude_from_sim no)
@@ -1354,6 +1369,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroPogoPins:Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM"
 			(exclude_from_sim no)
@@ -1466,21 +1482,9 @@
 				)
 			)
 			(symbol "Harwin_1x1_H17.75mm_Drill0.8mm_S13-503_CUSTOM_1_1"
-				(polyline
-					(pts
-						(xy 6.35 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27) (xy 6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(arc
-					(start 6.35 -1.27)
-					(mid 7.248 -0.898)
+					(start 6.35 1.27)
+					(mid 7.248 0.898)
 					(end 7.62 0)
 					(stroke
 						(width 0.254)
@@ -1492,8 +1496,20 @@
 				)
 				(arc
 					(start 7.62 0)
-					(mid 7.248 0.898)
-					(end 6.35 1.27)
+					(mid 7.248 -0.898)
+					(end 6.35 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27) (xy 6.35 1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1521,10 +1537,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_0R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1715,10 +1736,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_10k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1898,10 +1924,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_330R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2081,10 +2112,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_3k9_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2264,10 +2300,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_68k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2447,9 +2488,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTVSDiodes:AQ24COM-02"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2560,16 +2604,15 @@
 				)
 			)
 			(symbol "AQ24COM-02_1_1"
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 7.62 -2.54)
-					)
+				(rectangle
+					(start 2.54 2.54)
+					(end 8.89 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -2586,31 +2629,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -3.175) (xy 5.08 -2.921) (xy 5.08 -2.159) (xy 5.334 -1.905)
+						(xy 2.54 -2.54) (xy 7.62 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2634,7 +2653,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 3.81 -3.175) (xy 3.81 -1.905) (xy 5.08 -2.54)
+						(xy 4.826 -3.175) (xy 5.08 -2.921) (xy 5.08 -2.159) (xy 5.334 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -2670,6 +2689,18 @@
 				)
 				(polyline
 					(pts
+						(xy 5.08 -2.54) (xy 3.81 -3.175) (xy 3.81 -1.905) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 6.35 -1.905) (xy 6.35 -3.175) (xy 5.08 -2.54) (xy 6.35 -1.905)
 					)
 					(stroke
@@ -2680,20 +2711,33 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 2.54 2.54)
-					(end 8.89 -7.62)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.254)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(circle
-					(center 7.62 -2.54)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2757,10 +2801,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTVSDiodes:AXGD10402KR"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2895,6 +2944,18 @@
 			(symbol "AXGD10402KR_1_1"
 				(polyline
 					(pts
+						(xy 1.016 -1.016) (xy 1.016 1.016) (xy 2.54 0) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 1.016) (xy 2.159 1.016)
 					)
 					(stroke
@@ -2927,18 +2988,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.016 1.016) (xy 2.54 0) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -2990,10 +3039,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTVSDiodes:PESD5Z3.3"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3213,9 +3267,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTVSDiodes:TPD2E2U06_SC70"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3326,7 +3383,7 @@
 			(symbol "TPD2E2U06_SC70_0_1"
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 2.54 -2.54)
+						(xy 2.54 -5.08) (xy 6.35 -5.08) (xy 6.35 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -3350,7 +3407,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 6.35 -2.54)
+						(xy 3.81 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -3362,7 +3419,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy 6.35 -5.08) (xy 6.35 0) (xy 5.08 0)
+						(xy 5.08 -2.54) (xy 6.35 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -3374,10 +3431,9 @@
 				)
 			)
 			(symbol "TPD2E2U06_SC70_1_1"
-				(polyline
-					(pts
-						(xy 3.81 -3.175) (xy 3.81 -2.921) (xy 3.81 -2.159) (xy 4.064 -1.905)
-					)
+				(rectangle
+					(start 2.54 2.54)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3400,14 +3456,14 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -3.175) (xy 5.08 -1.905) (xy 3.81 -2.54) (xy 5.08 -3.175)
+						(xy 3.81 -3.175) (xy 3.81 -2.921) (xy 3.81 -2.159) (xy 4.064 -1.905)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(polyline
@@ -3422,15 +3478,16 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 2.54 2.54)
-					(end 7.62 -7.62)
+				(polyline
+					(pts
+						(xy 5.08 -3.175) (xy 5.08 -1.905) (xy 3.81 -2.54) (xy 5.08 -3.175)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(circle
@@ -3499,6 +3556,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS84"
 			(pin_names
@@ -3615,31 +3673,19 @@
 			(symbol "BSS84_1_1"
 				(polyline
 					(pts
-						(xy 5.08 1.143) (xy 5.08 0.635)
+						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 5.08 1.143) (xy 5.08 1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 2.032)
+						(xy 5.08 4.445) (xy 5.08 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -3663,7 +3709,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 4.445) (xy 5.08 3.429)
+						(xy 5.08 2.54) (xy 5.08 2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -3675,7 +3721,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 1.143) (xy 5.08 1.143)
+						(xy 5.08 1.143) (xy 5.08 1.651)
 					)
 					(stroke
 						(width 0.254)
@@ -3687,7 +3733,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.144 2.3368) (xy 8.128 2.3368)
+						(xy 5.08 1.143) (xy 5.08 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -3697,57 +3743,20 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
-					)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.302)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 6.35) (xy 7.62 3.937) (xy 5.08 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
 						(xy 7.239 2.54) (xy 6.477 3.048) (xy 6.477 2.032) (xy 7.239 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.636 2.286) (xy 9.144 3.048) (xy 8.128 3.048) (xy 8.636 2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -3769,9 +3778,21 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 7.62 6.35) (xy 7.62 3.937) (xy 5.08 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center 6.35 2.54)
-					(radius 3.302)
+					(center 7.62 4.445)
+					(radius 0.127)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3780,9 +3801,10 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 7.62 0.635)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy 7.62 1.143) (xy 5.08 1.143)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3803,8 +3825,44 @@
 					)
 				)
 				(circle
-					(center 7.62 4.445)
+					(center 7.62 0.635)
 					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 7.62 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 2.286) (xy 9.144 3.048) (xy 8.128 3.048) (xy 8.636 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 2.3368) (xy 8.128 2.3368)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3832,24 +3890,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 8.89 270)
 					(length 2.54)
 					(name "D"
@@ -3867,12 +3907,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -3.81 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:+3V3"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3953,18 +4016,6 @@
 			(symbol "+3V3_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.54) (xy -0.762 1.27)
 					)
 					(stroke
@@ -3987,11 +4038,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -4008,11 +4072,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4122,12 +4191,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4209,6 +4283,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:VCC"
 			(power)
@@ -4277,7 +4352,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4289,7 +4364,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4303,7 +4378,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VCC"
 						(effects
 							(font
@@ -4320,7 +4396,480 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "JOB Signal: J9-Pin6 (MISO)"
+		(exclude_from_sim no)
+		(at 317.754 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04a77783-49d8-45d3-9ca1-f9d10d725dc0")
+	)
+	(text "JOB Signal: TP23 (GND)"
+		(exclude_from_sim no)
+		(at 180.594 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "069a1149-5dbf-406d-9e38-cfbb93c99148")
+	)
+	(text "JOB Signal: TP1 (USBC3_VBUS)"
+		(exclude_from_sim no)
+		(at 180.594 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0918359b-d624-4435-af12-2e8ee6356f77")
+	)
+	(text "JOB Signal: TP14 (VCC)"
+		(exclude_from_sim no)
+		(at 180.594 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09642dc2-9171-4d64-8d69-04ca5fe158d5")
+	)
+	(text "Analog: 0-3.3V"
+		(exclude_from_sim no)
+		(at 143.002 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e4a3729-d9c2-4729-9497-bd3b2c0ece96")
+	)
+	(text "JOB Signal: J9-Pin8 (MOSI)"
+		(exclude_from_sim no)
+		(at 317.754 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "103e8b93-030e-492c-aa8e-d67a05964470")
+	)
+	(text "JOB Signal: TP3 (~{MOD_SLEEP})"
+		(exclude_from_sim no)
+		(at 180.594 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11b72fec-d96a-4bad-ae7c-671331e85dd4")
+	)
+	(text "VCC: 9-20V"
+		(exclude_from_sim no)
+		(at 38.608 223.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13dd28b8-e290-4add-85de-1d0679f79f59")
+	)
+	(text "This signal can be used to detect presence of the DUT\n* 0V - DUT is present\n* 3.3V - DUT is not present"
+		(exclude_from_sim no)
+		(at 246.888 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14839db0-8030-4217-83b1-bfa97ac49cc5")
+	)
+	(text "Spring Probes"
+		(exclude_from_sim no)
+		(at 226.568 26.162 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "1966ab38-b010-4c6c-af59-a0afe213793d")
+	)
+	(text "JOB Signal: TP44 (CLK_32K_OUT)"
+		(exclude_from_sim no)
+		(at 180.594 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "238254fe-845e-4eac-9a3d-96070425a669")
+	)
+	(text "JOB Signal: J9-Pin1 (EEPROM_PWR)"
+		(exclude_from_sim no)
+		(at 317.754 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2448a97e-784e-4147-8087-0ac6e31adaa1")
+	)
+	(text "JOB Signal: TP32 (USBC1_FAULT_N)"
+		(exclude_from_sim no)
+		(at 180.594 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "367a5077-5b70-4af2-a5d9-6d0e2e32f075")
+	)
+	(text "Analog: 0-20V"
+		(exclude_from_sim no)
+		(at 143.002 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a8507f2-b212-4771-ac01-1a2e220d43fa")
+	)
+	(text "JOB Signal: TP29 (USBC1_VBUS)"
+		(exclude_from_sim no)
+		(at 180.594 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41dcfe46-d91a-406a-86ad-9d53163d2be8")
+	)
+	(text "JOB Signal: TP17 (USBC0_VBUS)"
+		(exclude_from_sim no)
+		(at 180.594 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4223f006-acf5-4352-aff5-8ea9b1d2dcee")
+	)
+	(text "JOB Signal: TP53 (+5V)"
+		(exclude_from_sim no)
+		(at 180.594 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "437bbe8d-350b-4a4a-9daa-3cc8c51bf40d")
+	)
+	(text "JOB Signal: TP13 (U6-Pin30)"
+		(exclude_from_sim no)
+		(at 180.594 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49cc8f6b-d4e8-49fc-a24f-9d5e6017d5f3")
+	)
+	(text "Test Rig Base Connectors"
+		(exclude_from_sim no)
+		(at 71.374 25.146 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "5296c305-2247-49b1-9821-a0c9c9c6b0d9")
+	)
+	(text "FTDI's TxD - connect to DUT's RxD"
+		(exclude_from_sim no)
+		(at 16.002 209.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "639695eb-a6fd-4562-9cf4-484287c8d9f6")
+	)
+	(text "JOB Signal: SP7-Pin1 (GND)"
+		(exclude_from_sim no)
+		(at 331.978 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "721d6985-f8da-4704-94b3-2b917fc87199")
+	)
+	(text "Analog: 0-1.8V"
+		(exclude_from_sim no)
+		(at 143.002 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "786a7c65-10cc-4d2d-aeab-4b934411a41e")
+	)
+	(text "Interfaces"
+		(exclude_from_sim no)
+		(at 118.364 217.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91a8e3a8-b453-4c09-9aa8-afec44e7b406")
+	)
+	(text "JOB Signal: J9-Pin4 (SCK)"
+		(exclude_from_sim no)
+		(at 317.754 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91d1dfd5-16db-483f-b5b5-fac33a3c500b")
+	)
+	(text "Input on JOB (3V3):\n* Drive high to turn on +5V, +3V3 and +1V8 power rails\n* Keep HiZ otherwise"
+		(exclude_from_sim no)
+		(at 146.558 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9669c272-29a5-4868-b65a-628f2577a309")
+	)
+	(text "JOB Signal: TP31 (USBC1_DIR)"
+		(exclude_from_sim no)
+		(at 180.594 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a4af277-d034-4e57-8812-5b5ef9f70dba")
+	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 197.358 218.44 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "9ecf87c6-0d8e-4087-8df6-88074107b3ac")
+	)
+	(text "Analog: 0-5V"
+		(exclude_from_sim no)
+		(at 143.002 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a11ac097-73f2-4f00-a524-39a5089d52f1")
+	)
+	(text "JOB Signal: TP54 (+3V3)"
+		(exclude_from_sim no)
+		(at 180.594 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af4d1de7-91d4-4ccf-9143-3152b5d4bc51")
+	)
+	(text "Analog: 0-3.3V"
+		(exclude_from_sim no)
+		(at 143.002 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3748eb8-24be-4366-8af0-5a422c727819")
+	)
+	(text "Analog: 0-20V"
+		(exclude_from_sim no)
+		(at 143.002 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5c8a8b0-764c-406b-bda7-86459c02f293")
+	)
+	(text "JOB Signal: TP22 (HDMI_HPD)"
+		(exclude_from_sim no)
+		(at 180.594 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b74630b9-0341-4b80-8921-c1feba22affe")
+	)
+	(text "JOB Signal: TP30 (USBC_HPD)"
+		(exclude_from_sim no)
+		(at 180.594 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4b6ca74-6649-4e78-a63d-5d9f41285188")
+	)
+	(text "JOB Signal: TP52 (3V3_STDB)"
+		(exclude_from_sim no)
+		(at 180.594 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d328cf49-8ffa-4ff2-b0e0-c8c9efa48fde")
+	)
+	(text "JOB Signal: TP55 (+1V8)"
+		(exclude_from_sim no)
+		(at 180.594 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d63401cd-c32a-4a62-a21c-13c0f03ba2d4")
+	)
+	(text "JOB Signal: J9-Pin2 (~{CS})"
+		(exclude_from_sim no)
+		(at 317.754 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd8ce1e0-7851-4b7a-b171-ce93a3be5590")
+	)
+	(text "Analog: 0-20V"
+		(exclude_from_sim no)
+		(at 143.002 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3dade25-c434-4e91-8f1c-b5a63585ed6a")
+	)
+	(text "GPIOs"
+		(exclude_from_sim no)
+		(at 118.618 146.304 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5526db1-cab1-40ea-9367-18e630922ea9")
+	)
+	(text "JOB Signal: TP33 (~{RESET})"
+		(exclude_from_sim no)
+		(at 180.086 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e62498dd-d00e-41b0-aeb6-d8b099ffdee6")
+	)
+	(text "Set to 0V to turn on EEPROM power\nSet to HiZ to turn off EEPROM power"
+		(exclude_from_sim no)
+		(at 223.774 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e918219a-0861-48c9-aec8-12fb4ca4e94e")
+	)
+	(text "FTDI's RxD - connect to DUT's TxD"
+		(exclude_from_sim no)
+		(at 16.002 212.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9fb29f4-1e79-434b-acc9-8c30d15be49f")
+	)
+	(text "Analog Inputs"
+		(exclude_from_sim no)
+		(at 118.11 62.484 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7039278-ce81-47ba-a6a7-d8c30799d415")
+	)
+	(text "Analog: 0-20V"
+		(exclude_from_sim no)
+		(at 143.002 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fee2ca42-775e-4997-b276-8cafccaebd6e")
 	)
 	(junction
 		(at 367.03 215.9)
@@ -9155,481 +9704,8 @@
 			"AElFTkSuQmCC"
 		)
 	)
-	(text "JOB Signal: J9-Pin6 (MISO)"
-		(exclude_from_sim no)
-		(at 317.754 84.074 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04a77783-49d8-45d3-9ca1-f9d10d725dc0")
-	)
-	(text "JOB Signal: TP23 (GND)"
-		(exclude_from_sim no)
-		(at 180.594 194.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "069a1149-5dbf-406d-9e38-cfbb93c99148")
-	)
-	(text "JOB Signal: TP1 (USBC3_VBUS)"
-		(exclude_from_sim no)
-		(at 180.594 141.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0918359b-d624-4435-af12-2e8ee6356f77")
-	)
-	(text "JOB Signal: TP14 (VCC)"
-		(exclude_from_sim no)
-		(at 180.594 156.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09642dc2-9171-4d64-8d69-04ca5fe158d5")
-	)
-	(text "Analog: 0-3.3V"
-		(exclude_from_sim no)
-		(at 143.002 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e4a3729-d9c2-4729-9497-bd3b2c0ece96")
-	)
-	(text "JOB Signal: J9-Pin8 (MOSI)"
-		(exclude_from_sim no)
-		(at 317.754 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "103e8b93-030e-492c-aa8e-d67a05964470")
-	)
-	(text "JOB Signal: TP3 (~{MOD_SLEEP})"
-		(exclude_from_sim no)
-		(at 180.594 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11b72fec-d96a-4bad-ae7c-671331e85dd4")
-	)
-	(text "VCC: 9-20V"
-		(exclude_from_sim no)
-		(at 38.608 223.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13dd28b8-e290-4add-85de-1d0679f79f59")
-	)
-	(text "This signal can be used to detect presence of the DUT\n* 0V - DUT is present\n* 3.3V - DUT is not present"
-		(exclude_from_sim no)
-		(at 246.888 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14839db0-8030-4217-83b1-bfa97ac49cc5")
-	)
-	(text "Spring Probes"
-		(exclude_from_sim no)
-		(at 226.568 26.162 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "1966ab38-b010-4c6c-af59-a0afe213793d")
-	)
-	(text "JOB Signal: TP44 (CLK_32K_OUT)"
-		(exclude_from_sim no)
-		(at 180.594 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "238254fe-845e-4eac-9a3d-96070425a669")
-	)
-	(text "JOB Signal: J9-Pin1 (EEPROM_PWR)"
-		(exclude_from_sim no)
-		(at 317.754 52.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2448a97e-784e-4147-8087-0ac6e31adaa1")
-	)
-	(text "JOB Signal: TP32 (USBC1_FAULT_N)"
-		(exclude_from_sim no)
-		(at 180.594 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "367a5077-5b70-4af2-a5d9-6d0e2e32f075")
-	)
-	(text "Analog: 0-20V"
-		(exclude_from_sim no)
-		(at 143.002 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a8507f2-b212-4771-ac01-1a2e220d43fa")
-	)
-	(text "JOB Signal: TP29 (USBC1_VBUS)"
-		(exclude_from_sim no)
-		(at 180.594 148.844 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41dcfe46-d91a-406a-86ad-9d53163d2be8")
-	)
-	(text "JOB Signal: TP17 (USBC0_VBUS)"
-		(exclude_from_sim no)
-		(at 180.594 133.604 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4223f006-acf5-4352-aff5-8ea9b1d2dcee")
-	)
-	(text "JOB Signal: TP53 (+5V)"
-		(exclude_from_sim no)
-		(at 180.594 164.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "437bbe8d-350b-4a4a-9daa-3cc8c51bf40d")
-	)
-	(text "JOB Signal: TP13 (U6-Pin30)"
-		(exclude_from_sim no)
-		(at 180.594 80.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49cc8f6b-d4e8-49fc-a24f-9d5e6017d5f3")
-	)
-	(text "Test Rig Base Connectors"
-		(exclude_from_sim no)
-		(at 71.374 25.146 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "5296c305-2247-49b1-9821-a0c9c9c6b0d9")
-	)
-	(text "FTDI's TxD - connect to DUT's RxD"
-		(exclude_from_sim no)
-		(at 16.002 209.804 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "639695eb-a6fd-4562-9cf4-484287c8d9f6")
-	)
-	(text "JOB Signal: SP7-Pin1 (GND)"
-		(exclude_from_sim no)
-		(at 331.978 114.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "721d6985-f8da-4704-94b3-2b917fc87199")
-	)
-	(text "Analog: 0-1.8V"
-		(exclude_from_sim no)
-		(at 143.002 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "786a7c65-10cc-4d2d-aeab-4b934411a41e")
-	)
-	(text "Interfaces"
-		(exclude_from_sim no)
-		(at 118.364 217.17 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "91a8e3a8-b453-4c09-9aa8-afec44e7b406")
-	)
-	(text "JOB Signal: J9-Pin4 (SCK)"
-		(exclude_from_sim no)
-		(at 317.754 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91d1dfd5-16db-483f-b5b5-fac33a3c500b")
-	)
-	(text "Input on JOB (3V3):\n* Drive high to turn on +5V, +3V3 and +1V8 power rails\n* Keep HiZ otherwise"
-		(exclude_from_sim no)
-		(at 146.558 49.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9669c272-29a5-4868-b65a-628f2577a309")
-	)
-	(text "JOB Signal: TP31 (USBC1_DIR)"
-		(exclude_from_sim no)
-		(at 180.594 95.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a4af277-d034-4e57-8812-5b5ef9f70dba")
-	)
-	(text "Status LEDs"
-		(exclude_from_sim no)
-		(at 197.358 218.44 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "9ecf87c6-0d8e-4087-8df6-88074107b3ac")
-	)
-	(text "Analog: 0-5V"
-		(exclude_from_sim no)
-		(at 143.002 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a11ac097-73f2-4f00-a524-39a5089d52f1")
-	)
-	(text "JOB Signal: TP54 (+3V3)"
-		(exclude_from_sim no)
-		(at 180.594 171.704 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af4d1de7-91d4-4ccf-9143-3152b5d4bc51")
-	)
-	(text "Analog: 0-3.3V"
-		(exclude_from_sim no)
-		(at 143.002 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3748eb8-24be-4366-8af0-5a422c727819")
-	)
-	(text "Analog: 0-20V"
-		(exclude_from_sim no)
-		(at 143.002 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5c8a8b0-764c-406b-bda7-86459c02f293")
-	)
-	(text "JOB Signal: TP22 (HDMI_HPD)"
-		(exclude_from_sim no)
-		(at 180.594 87.884 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b74630b9-0341-4b80-8921-c1feba22affe")
-	)
-	(text "JOB Signal: TP30 (USBC_HPD)"
-		(exclude_from_sim no)
-		(at 180.594 110.744 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c4b6ca74-6649-4e78-a63d-5d9f41285188")
-	)
-	(text "JOB Signal: TP52 (3V3_STDB)"
-		(exclude_from_sim no)
-		(at 180.594 179.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d328cf49-8ffa-4ff2-b0e0-c8c9efa48fde")
-	)
-	(text "JOB Signal: TP55 (+1V8)"
-		(exclude_from_sim no)
-		(at 180.594 186.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d63401cd-c32a-4a62-a21c-13c0f03ba2d4")
-	)
-	(text "JOB Signal: J9-Pin2 (~{CS})"
-		(exclude_from_sim no)
-		(at 317.754 68.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd8ce1e0-7851-4b7a-b171-ce93a3be5590")
-	)
-	(text "Analog: 0-20V"
-		(exclude_from_sim no)
-		(at 143.002 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3dade25-c434-4e91-8f1c-b5a63585ed6a")
-	)
-	(text "GPIOs"
-		(exclude_from_sim no)
-		(at 118.618 146.304 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e5526db1-cab1-40ea-9367-18e630922ea9")
-	)
-	(text "JOB Signal: TP33 (~{RESET})"
-		(exclude_from_sim no)
-		(at 180.086 57.404 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e62498dd-d00e-41b0-aeb6-d8b099ffdee6")
-	)
-	(text "Set to 0V to turn on EEPROM power\nSet to HiZ to turn off EEPROM power"
-		(exclude_from_sim no)
-		(at 223.774 55.626 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e918219a-0861-48c9-aec8-12fb4ca4e94e")
-	)
-	(text "FTDI's RxD - connect to DUT's TxD"
-		(exclude_from_sim no)
-		(at 16.002 212.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9fb29f4-1e79-434b-acc9-8c30d15be49f")
-	)
-	(text "Analog Inputs"
-		(exclude_from_sim no)
-		(at 118.11 62.484 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f7039278-ce81-47ba-a6a7-d8c30799d415")
-	)
-	(text "Analog: 0-20V"
-		(exclude_from_sim no)
-		(at 143.002 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fee2ca42-775e-4997-b276-8cafccaebd6e")
-	)
 	(label "GPIO_07"
 		(at 50.8 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9640,7 +9716,6 @@
 	)
 	(label "SPI_MOSI_TVS"
 		(at 281.94 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9651,7 +9726,6 @@
 	)
 	(label "GPIO_24"
 		(at 198.12 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9662,7 +9736,6 @@
 	)
 	(label "GPIO_36"
 		(at 50.8 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9673,7 +9746,6 @@
 	)
 	(label "GPIO_02"
 		(at 247.65 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9684,7 +9756,6 @@
 	)
 	(label "ADC_A_IN7"
 		(at 125.73 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9695,7 +9766,6 @@
 	)
 	(label "GPIO_26"
 		(at 237.49 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9706,7 +9776,6 @@
 	)
 	(label "SPI_SCLK"
 		(at 247.65 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9717,7 +9786,6 @@
 	)
 	(label "SPI_MOSI"
 		(at 247.65 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9728,7 +9796,6 @@
 	)
 	(label "GPIO_35"
 		(at 50.8 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9739,7 +9806,6 @@
 	)
 	(label "ADC_A_IN1_TVS"
 		(at 238.76 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9750,7 +9816,6 @@
 	)
 	(label "GPIO_06"
 		(at 50.8 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9761,7 +9826,6 @@
 	)
 	(label "GPIO_15"
 		(at 50.8 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9772,7 +9836,6 @@
 	)
 	(label "GPIO_37"
 		(at 50.8 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9783,7 +9846,6 @@
 	)
 	(label "GPIO_34"
 		(at 50.8 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9794,7 +9856,6 @@
 	)
 	(label "ADC_A_IN4"
 		(at 125.73 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9805,7 +9866,6 @@
 	)
 	(label "ADC_A_IN3_TVS"
 		(at 143.51 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9816,7 +9876,6 @@
 	)
 	(label "GPIO_27"
 		(at 50.8 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9827,7 +9886,6 @@
 	)
 	(label "ADC_B_IN6"
 		(at 50.8 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9838,7 +9896,6 @@
 	)
 	(label "ADC_A_IN7_TVS"
 		(at 238.76 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9849,7 +9906,6 @@
 	)
 	(label "ADC_A_IN0_TVS"
 		(at 143.51 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9860,7 +9916,6 @@
 	)
 	(label "GPIO_21"
 		(at 83.82 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9871,7 +9926,6 @@
 	)
 	(label "SPI_MISO_TVS"
 		(at 281.94 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9882,7 +9936,6 @@
 	)
 	(label "GPIO_01_TVS"
 		(at 292.1 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9893,7 +9946,6 @@
 	)
 	(label "ADC_A_IN6"
 		(at 50.8 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9904,7 +9956,6 @@
 	)
 	(label "GPIO_12"
 		(at 83.82 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9915,7 +9966,6 @@
 	)
 	(label "ADC_A_IN2"
 		(at 125.73 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9926,7 +9976,6 @@
 	)
 	(label "ADC_B_IN0"
 		(at 83.82 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9937,7 +9986,6 @@
 	)
 	(label "ADC_B_IN5"
 		(at 50.8 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9948,7 +9996,6 @@
 	)
 	(label "ADC_A_IN0_TVS"
 		(at 238.76 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9959,7 +10006,6 @@
 	)
 	(label "GPIO_10"
 		(at 83.82 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9970,7 +10016,6 @@
 	)
 	(label "SPI_CS0"
 		(at 83.82 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9981,7 +10026,6 @@
 	)
 	(label "UART_TX"
 		(at 50.8 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9992,7 +10036,6 @@
 	)
 	(label "ADC_A_IN1_TVS"
 		(at 143.51 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10003,7 +10046,6 @@
 	)
 	(label "GPIO_25"
 		(at 198.12 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10014,7 +10056,6 @@
 	)
 	(label "GPIO_34"
 		(at 119.38 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10025,7 +10066,6 @@
 	)
 	(label "ADC_A_IN4_TVS"
 		(at 143.51 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10036,7 +10076,6 @@
 	)
 	(label "ADC_A_IN2"
 		(at 83.82 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10047,7 +10086,6 @@
 	)
 	(label "ADC_A_IN0"
 		(at 125.73 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10058,7 +10096,6 @@
 	)
 	(label "SPI_SCLK_TVS"
 		(at 281.94 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10069,7 +10106,6 @@
 	)
 	(label "ADC_A_IN4"
 		(at 50.8 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10080,7 +10116,6 @@
 	)
 	(label "GPIO_11"
 		(at 83.82 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10091,7 +10126,6 @@
 	)
 	(label "ADC_A_IN2_TVS"
 		(at 238.76 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10102,7 +10136,6 @@
 	)
 	(label "GPIO_31"
 		(at 83.82 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10113,7 +10146,6 @@
 	)
 	(label "ADC_A_IN4_TVS"
 		(at 238.76 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10124,7 +10156,6 @@
 	)
 	(label "GPIO_37"
 		(at 158.75 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10135,7 +10166,6 @@
 	)
 	(label "GPIO_23"
 		(at 83.82 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10146,7 +10176,6 @@
 	)
 	(label "SPI_CS0"
 		(at 247.65 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10157,7 +10186,6 @@
 	)
 	(label "I2C_SCL"
 		(at 50.8 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10168,7 +10196,6 @@
 	)
 	(label "GPIO_00"
 		(at 130.81 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10179,7 +10206,6 @@
 	)
 	(label "ADC_A_IN1"
 		(at 125.73 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10190,7 +10216,6 @@
 	)
 	(label "ADC_A_IN5"
 		(at 50.8 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10201,7 +10226,6 @@
 	)
 	(label "SPI_SCLK_TVS"
 		(at 292.1 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10212,7 +10236,6 @@
 	)
 	(label "GPIO_35"
 		(at 119.38 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10223,7 +10246,6 @@
 	)
 	(label "SPI_MOSI"
 		(at 83.82 215.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10234,7 +10256,6 @@
 	)
 	(label "ADC_B_IN7"
 		(at 50.8 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10245,7 +10266,6 @@
 	)
 	(label "GPIO_25"
 		(at 50.8 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10256,7 +10276,6 @@
 	)
 	(label "ADC_A_IN3"
 		(at 125.73 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10267,7 +10286,6 @@
 	)
 	(label "GPIO_17"
 		(at 50.8 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10278,7 +10296,6 @@
 	)
 	(label "ADC_A_IN7"
 		(at 50.8 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10289,7 +10306,6 @@
 	)
 	(label "I2C_SDA"
 		(at 50.8 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10300,7 +10316,6 @@
 	)
 	(label "ADC_A_IN7_TVS"
 		(at 143.51 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10311,7 +10326,6 @@
 	)
 	(label "ADC_A_IN3"
 		(at 83.82 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10322,7 +10336,6 @@
 	)
 	(label "GPIO_30"
 		(at 83.82 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10333,7 +10346,6 @@
 	)
 	(label "GPIO_24"
 		(at 50.8 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10344,7 +10356,6 @@
 	)
 	(label "GPIO_00_TVS"
 		(at 292.1 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10355,7 +10366,6 @@
 	)
 	(label "GPIO_33"
 		(at 83.82 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10366,7 +10376,6 @@
 	)
 	(label "SPI_MISO"
 		(at 83.82 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10377,7 +10386,6 @@
 	)
 	(label "GPIO_14"
 		(at 50.8 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10388,7 +10396,6 @@
 	)
 	(label "SPI_CS0_TVS"
 		(at 281.94 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10399,7 +10406,6 @@
 	)
 	(label "GPIO_13"
 		(at 83.82 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10410,7 +10416,6 @@
 	)
 	(label "EEPROM_PWR"
 		(at 292.1 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10421,7 +10426,6 @@
 	)
 	(label "ADC_A_IN0"
 		(at 83.82 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10432,7 +10436,6 @@
 	)
 	(label "GPIO_00"
 		(at 83.82 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10443,7 +10446,6 @@
 	)
 	(label "GPIO_01_TVS"
 		(at 266.7 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10454,7 +10456,6 @@
 	)
 	(label "SPI_MISO"
 		(at 247.65 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10465,7 +10466,6 @@
 	)
 	(label "GPIO_05"
 		(at 50.8 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10476,7 +10476,6 @@
 	)
 	(label "GPIO_01"
 		(at 83.82 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10487,7 +10486,6 @@
 	)
 	(label "ADC_A_IN2_TVS"
 		(at 143.51 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10498,7 +10496,6 @@
 	)
 	(label "ADC_B_IN4"
 		(at 50.8 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10509,7 +10506,6 @@
 	)
 	(label "ADC_A_IN6"
 		(at 125.73 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10520,7 +10516,6 @@
 	)
 	(label "GPIO_20"
 		(at 83.82 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10531,7 +10526,6 @@
 	)
 	(label "ADC_B_IN2"
 		(at 83.82 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10542,7 +10536,6 @@
 	)
 	(label "GPIO_27"
 		(at 237.49 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10553,7 +10546,6 @@
 	)
 	(label "ADC_A_IN6_TVS"
 		(at 238.76 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10564,7 +10556,6 @@
 	)
 	(label "GPIO_04"
 		(at 50.8 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10575,7 +10566,6 @@
 	)
 	(label "SPI_MISO_TVS"
 		(at 292.1 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10586,7 +10576,6 @@
 	)
 	(label "GPIO_00_TVS"
 		(at 147.32 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10597,7 +10586,6 @@
 	)
 	(label "GPIO_16"
 		(at 50.8 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10608,7 +10596,6 @@
 	)
 	(label "ADC_A_IN6_TVS"
 		(at 143.51 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10619,7 +10606,6 @@
 	)
 	(label "GPIO_22"
 		(at 83.82 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10630,7 +10616,6 @@
 	)
 	(label "SPI_MOSI_TVS"
 		(at 292.1 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10641,7 +10626,6 @@
 	)
 	(label "ADC_B_IN1"
 		(at 83.82 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10652,7 +10636,6 @@
 	)
 	(label "ADC_A_IN5"
 		(at 125.73 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10663,7 +10646,6 @@
 	)
 	(label "GPIO_02"
 		(at 83.82 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10674,7 +10656,6 @@
 	)
 	(label "ADC_A_IN3_TVS"
 		(at 238.76 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10685,7 +10666,6 @@
 	)
 	(label "UART_RX"
 		(at 50.8 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10696,7 +10676,6 @@
 	)
 	(label "SPI_CS0_TVS"
 		(at 292.1 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10707,7 +10686,6 @@
 	)
 	(label "EEPROM_PWR"
 		(at 281.94 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10718,7 +10696,6 @@
 	)
 	(label "GPIO_01"
 		(at 247.65 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10729,7 +10706,6 @@
 	)
 	(label "ADC_A_IN1"
 		(at 83.82 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10740,7 +10716,6 @@
 	)
 	(label "SPI_SCLK"
 		(at 83.82 218.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10751,7 +10726,6 @@
 	)
 	(label "ADC_B_IN3"
 		(at 83.82 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10762,7 +10736,6 @@
 	)
 	(label "GPIO_36"
 		(at 158.75 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10773,7 +10746,6 @@
 	)
 	(label "GPIO_03"
 		(at 83.82 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10784,7 +10756,6 @@
 	)
 	(label "GPIO_32"
 		(at 83.82 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10795,7 +10766,6 @@
 	)
 	(label "GPIO_26"
 		(at 50.8 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29139,6 +29109,10 @@
 	(sheet
 		(at 129.54 237.49)
 		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -29168,33 +29142,33 @@
 		)
 		(pin "LED_VDD" input
 			(at 129.54 240.03 180)
+			(uuid "6a99c66f-bfc6-491a-9c21-4175df9c53b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a99c66f-bfc6-491a-9c21-4175df9c53b8")
 		)
 		(pin "G_ON" input
 			(at 129.54 246.38 180)
+			(uuid "920ff957-bae1-4ecd-a02f-408c49f9cd72")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "920ff957-bae1-4ecd-a02f-408c49f9cd72")
 		)
 		(pin "R_ON" input
 			(at 129.54 252.73 180)
+			(uuid "2e10011c-346c-4fc5-a169-c87b7dc8e209")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2e10011c-346c-4fc5-a169-c87b7dc8e209")
 		)
 		(instances
 			(project "jetson-orin-baseboard-test-rig"
@@ -29207,6 +29181,10 @@
 	(sheet
 		(at 247.65 237.49)
 		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -29236,33 +29214,33 @@
 		)
 		(pin "LED_VDD" input
 			(at 247.65 240.03 180)
+			(uuid "9c81ebe1-981c-42d5-8738-e6ebc3ba5e1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c81ebe1-981c-42d5-8738-e6ebc3ba5e1d")
 		)
 		(pin "G_ON" input
 			(at 247.65 246.38 180)
+			(uuid "35099c3b-01b3-484c-917b-4f47dc15c954")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "35099c3b-01b3-484c-917b-4f47dc15c954")
 		)
 		(pin "R_ON" input
 			(at 247.65 252.73 180)
+			(uuid "76885aa0-cd90-4add-a8ec-5ecb9b859490")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "76885aa0-cd90-4add-a8ec-5ecb9b859490")
 		)
 		(instances
 			(project "jetson-orin-baseboard-test-rig"
@@ -29275,6 +29253,10 @@
 	(sheet
 		(at 208.28 237.49)
 		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -29304,33 +29286,33 @@
 		)
 		(pin "LED_VDD" input
 			(at 208.28 240.03 180)
+			(uuid "b1ab248c-ecf4-4aeb-bb12-ae2023975da9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1ab248c-ecf4-4aeb-bb12-ae2023975da9")
 		)
 		(pin "G_ON" input
 			(at 208.28 246.38 180)
+			(uuid "a8b15822-718d-4675-b859-48cafb576750")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a8b15822-718d-4675-b859-48cafb576750")
 		)
 		(pin "R_ON" input
 			(at 208.28 252.73 180)
+			(uuid "36a90dd7-e839-4922-a1e5-e9cfadd23969")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "36a90dd7-e839-4922-a1e5-e9cfadd23969")
 		)
 		(instances
 			(project "jetson-orin-baseboard-test-rig"
@@ -29343,6 +29325,10 @@
 	(sheet
 		(at 168.91 237.49)
 		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -29372,33 +29358,33 @@
 		)
 		(pin "LED_VDD" input
 			(at 168.91 240.03 180)
+			(uuid "8c95ee6c-a248-4f15-ae0b-80897754e54f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8c95ee6c-a248-4f15-ae0b-80897754e54f")
 		)
 		(pin "G_ON" input
 			(at 168.91 246.38 180)
+			(uuid "c3e20426-fd74-409d-b965-94b5c39ed9b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3e20426-fd74-409d-b965-94b5c39ed9b7")
 		)
 		(pin "R_ON" input
 			(at 168.91 252.73 180)
+			(uuid "abe59c8e-638b-446b-8cba-24179c10f12e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abe59c8e-638b-446b-8cba-24179c10f12e")
 		)
 		(instances
 			(project "jetson-orin-baseboard-test-rig"
@@ -29413,4 +29399,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
