@@ -10899,7 +10899,7 @@
 		(uuid "a7c85871-bd0a-4013-abd3-40917270d9aa")
 	)
 	(label "PDC_I2C2_SCL"
-		(at 342.9 176.53 0)
+		(at 342.9 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11069,7 +11069,7 @@
 		(uuid "cef87e5f-dfed-4724-9492-aa613fa984c2")
 	)
 	(label "PDC_I2C2_SDA"
-		(at 342.9 173.99 0)
+		(at 342.9 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
