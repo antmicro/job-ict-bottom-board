@@ -5308,10 +5308,6 @@
 		(uuid "d70c2d74-f115-4330-b815-edcf5414b593")
 	)
 	(no_connect
-		(at 50.8 157.48)
-		(uuid "da899664-eebb-4e76-8c8b-87e0dc7d8cce")
-	)
-	(no_connect
 		(at 83.82 104.14)
 		(uuid "e1faec4b-2787-4a55-b164-91af78856b83")
 	)
