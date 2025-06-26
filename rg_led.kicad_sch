@@ -613,7 +613,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_470R_0402"
+		(symbol "antmicroResistors0402:R_1k5_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -633,7 +633,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_470R_0402"
+			(property "Value" "R_1k5_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -666,7 +666,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 1.5 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -675,7 +675,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-4700GLF"
+			(property "MPN" "CR0402-FX-1501GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -719,7 +719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "470R"
+			(property "Val" "1k5"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -748,7 +748,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_470R_0402_0_1"
+			(symbol "R_1k5_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -761,7 +761,7 @@
 					)
 				)
 			)
-			(symbol "R_470R_0402_1_1"
+			(symbol "R_1k5_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -801,7 +801,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_680R_0402"
+		(symbol "antmicroResistors0402:R_2k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -821,7 +821,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_680R_0402"
+			(property "Value" "R_2k_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -854,7 +854,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 680 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -863,7 +863,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-6800GLF"
+			(property "MPN" "CR0402-FX-2001GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -907,7 +907,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "680R"
+			(property "Val" "2k"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -936,7 +936,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_680R_0402_0_1"
+			(symbol "R_2k_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -949,7 +949,7 @@
 					)
 				)
 			)
-			(symbol "R_680R_0402_1_1"
+			(symbol "R_2k_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -1951,6 +1951,158 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_1k5_0402")
+		(at 201.93 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f95db89-55e7-40d3-a13d-b9a8b2a94d2f")
+		(property "Reference" "R24"
+			(at 199.39 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_1k5_0402"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1.5 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1501GLF"
+			(at 222.25 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 229.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k5"
+			(at 199.39 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 212.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a95fb6cf-91fd-4a71-925d-d4d33175ce06")
+		)
+		(pin "1"
+			(uuid "e0dfcd96-1dc8-4a38-9097-875119455f1a")
+		)
+		(instances
+			(project ""
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/0c8eff45-5dcb-4b03-8d03-5bc529aabf64"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/71be9696-f132-4249-a65b-675828057d7e"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/a65537cd-579c-4421-9ceb-eb889d2871a7"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/dec45dd3-d7e6-4fe7-810b-99ab105c3963"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_10k_0402_1")
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 219.71 172.72 90)
@@ -2239,159 +2391,6 @@
 				)
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/dec45dd3-d7e6-4fe7-810b-99ab105c3963"
 					(reference "D200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_470R_0402")
-		(at 201.93 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c0f25b0-0319-46f3-9dcf-c01aac041bf1")
-		(property "Reference" "R100"
-			(at 199.39 139.7 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_470R_0402"
-			(at 214.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 217.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4700GLF"
-			(at 222.25 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 224.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 227.33 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 229.87 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "470R"
-			(at 194.31 141.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 212.09 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10b9c110-bd56-42d6-adcc-488c109fe344")
-		)
-		(pin "2"
-			(uuid "8b6a4b83-3803-4d9a-a89b-3ead7b767c06")
-		)
-		(instances
-			(project ""
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/0c8eff45-5dcb-4b03-8d03-5bc529aabf64"
-					(reference "R100")
-					(unit 1)
-				)
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/71be9696-f132-4249-a65b-675828057d7e"
-					(reference "R400")
-					(unit 1)
-				)
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/a65537cd-579c-4421-9ceb-eb889d2871a7"
-					(reference "R300")
-					(unit 1)
-				)
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/dec45dd3-d7e6-4fe7-810b-99ab105c3963"
-					(reference "R200")
 					(unit 1)
 				)
 			)
@@ -2855,7 +2854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_680R_0402")
+		(lib_id "antmicroResistors0402:R_2k_0402")
 		(at 205.74 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2863,8 +2862,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1b9af8c-8a1d-4224-99b3-7eec09654525")
-		(property "Reference" "R101"
+		(uuid "dc2dadca-37b6-464a-92bd-8275eec4a41d")
+		(property "Reference" "R28"
 			(at 208.28 139.7 90)
 			(effects
 				(font
@@ -2874,7 +2873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_680R_0402"
+		(property "Value" "R_2k_0402"
 			(at 218.44 123.19 0)
 			(effects
 				(font
@@ -2907,7 +2906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 680 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 205.74 143.51 0)
 			(effects
 				(font
@@ -2916,7 +2915,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-6800GLF"
+		(property "MPN" "CR0402-FX-2001GLF"
 			(at 226.06 123.19 0)
 			(effects
 				(font
@@ -2960,7 +2959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "680R"
+		(property "Val" "2k"
 			(at 208.28 142.24 90)
 			(effects
 				(font
@@ -2981,27 +2980,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "831abe33-65fe-41e8-baa8-8db13d38538a")
+			(uuid "48615156-5b4b-4f85-b9d5-b1ae70015fad")
 		)
 		(pin "2"
-			(uuid "4e2d557e-232d-4805-984c-757cb3db5ebc")
+			(uuid "4e3bb0d0-838b-4e78-9fb1-0b900f85c50d")
 		)
 		(instances
 			(project ""
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/0c8eff45-5dcb-4b03-8d03-5bc529aabf64"
-					(reference "R101")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/71be9696-f132-4249-a65b-675828057d7e"
-					(reference "R401")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/a65537cd-579c-4421-9ceb-eb889d2871a7"
-					(reference "R301")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/dec45dd3-d7e6-4fe7-810b-99ab105c3963"
-					(reference "R201")
+					(reference "R29")
 					(unit 1)
 				)
 			)
