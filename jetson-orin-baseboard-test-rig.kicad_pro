@@ -61,15 +61,15 @@
       ],
       "drc_exclusions": [
         [
-          "annular_width|203210000|122110000|49fbd9c6-a398-4c5a-9aaf-136e1b42252a|00000000-0000-0000-0000-000000000000",
-          "0mm OAR allowed with Oblong Pads"
+          "annular_width|203190000|122090000|49fbd9c6-a398-4c5a-9aaf-136e1b42252a|00000000-0000-0000-0000-000000000000",
+          "0mm OAR acceptable with Oblong Pads"
         ],
         [
-          "annular_width|204310000|122610000|6dfab4d9-d1c6-4dfa-a615-c8d9ffeaf154|00000000-0000-0000-0000-000000000000",
-          "0mm OAR allowed with Oblong Pads"
+          "annular_width|204330000|122630000|6dfab4d9-d1c6-4dfa-a615-c8d9ffeaf154|00000000-0000-0000-0000-000000000000",
+          "0mm OAR acceptable with Oblong Pads"
         ],
         [
-          "courtyards_overlap|204010000|121856412|a2cecca0-40fc-4a7b-a043-4ae1b3343222|d1863d39-9049-435e-b5e6-d08cb04419d4",
+          "courtyards_overlap|204030000|121876412|a2cecca0-40fc-4a7b-a043-4ae1b3343222|d1863d39-9049-435e-b5e6-d08cb04419d4",
           ""
         ],
         [
@@ -86,14 +86,6 @@
         ],
         [
           "padstack|154000000|196000000|01f225d6-1bdb-4538-aa4a-a7a695458bb9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "pth_inside_courtyard|203210000|122110000|49fbd9c6-a398-4c5a-9aaf-136e1b42252a|d1863d39-9049-435e-b5e6-d08cb04419d4",
-          ""
-        ],
-        [
-          "pth_inside_courtyard|204310000|122610000|6dfab4d9-d1c6-4dfa-a615-c8d9ffeaf154|a2cecca0-40fc-4a7b-a043-4ae1b3343222",
           ""
         ],
         [
