@@ -1,4 +1,4 @@
-# Test Rig Base
+# Jetson Orin Baseboard Test Rig Base
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
