@@ -2,11 +2,10 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
-
 ## Overview
 
 This project contains open hardware design files for a test platform designed for Antmicro's [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard).
-The board connect with the Baseboard's test points via spring probes and passes the signals to the Antmicro's test rig base board. The test rig is also equipped with four RG LEDs to indicate the testing status.
+The board connects with the Baseboard's test points via spring probes and passes the signals to Antmicro's test rig base board. The test rig is also equipped with four RG LEDs to indicate the testing status.
 
 The design files were prepared in KiCad 9.x.
 
