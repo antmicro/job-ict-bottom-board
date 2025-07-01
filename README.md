@@ -2,6 +2,8 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
+![](img/orthoT.png)
+
 ## Overview
 
 This project contains open hardware design files of a In-circuit testing (ICT) Bottom Board designed for Antmicro's [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard).
