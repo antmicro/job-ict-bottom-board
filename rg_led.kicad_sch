@@ -5,9 +5,9 @@
 	(uuid "374c060c-8747-4261-8093-6ab9f4fbe624")
 	(paper "A3")
 	(title_block
-		(title "Jetson Orin Baseboard Test Rig")
-		(date "2025-06-25")
-		(rev "1.1.0")
+		(title "Jetson Orin Baseboard ICT Bottom Board")
+		(date "2025-07-01")
+		(rev "1.1.1")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
