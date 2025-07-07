@@ -2,7 +2,7 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
-![](img/orthoT.png)
+![](img/job-ict-bottom-board-render.png)
 
 ## Overview
 
