@@ -15,7 +15,7 @@ The design files were prepared in KiCad 9.x.
 
 ## Key features
 
-* Spring loaded test probes matching the notable testpoints exposed on the [Jetson Orin Baseboard's](https://github.com/antmicro/jetson-orin-baseboard)
+* Spring loaded test probes matching the notable testpoints exposed on the [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard)
 * Four bi-color (Red/Green) LEDs for status indication
 * ESD protection for all IO channels
 * Compatible with [ICT Baseboard](https://github.com/antmicro/ict-baseboard)
