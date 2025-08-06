@@ -9,7 +9,7 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'test-rig-guide.step',
+/* name */ 'job-ict-guide.step',
 /* time_stamp */ '2025-06-30T14:20:05+02:00',
 /* author */ (''),
 /* organization */ (''),

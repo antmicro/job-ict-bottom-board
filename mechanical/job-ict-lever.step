@@ -9,7 +9,7 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'test-rig-GH-201-A .step',
+/* name */ 'job-ict-lever.step',
 /* time_stamp */ '2025-06-30T14:19:49+02:00',
 /* author */ (''),
 /* organization */ (''),

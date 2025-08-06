@@ -9,7 +9,7 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'test-rig-lever-adapter.step',
+/* name */ 'job-ict-lever-adapter.step',
 /* time_stamp */ '2025-06-30T14:19:29+02:00',
 /* author */ (''),
 /* organization */ (''),
