@@ -1,0 +1,3 @@
+default:
+  SCENE:
+    ZOOM_OUT: 1.15
